@@ -20,6 +20,14 @@ exports/
 work/AESKey1.json
 work/*.local.json
 
+# 游戏派生数据：图标库、中文名表、本地化表一律不进仓库
+# （显示名由 core/humanize.py 从代号生成，图标用占位块）
+work/icons.db
+work/names.json
+*.locres
+*.locres.bin
+*.ustbin
+
 # 调试截图 / 分析输出
 gs-shots/
 docs/_*.png

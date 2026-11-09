@@ -62,12 +62,9 @@ def _stamp() -> str:
 
 # 索引不再随包（现在存成 %LOCALAPPDATA%\VertexViewer\index.db 一个 SQLite 文件，
 # 第一次启动时从游戏 pak 现场建，之后永远复用它）。包里只带「静态查表数据」。
-WORK_FILES = ("AESKey1.json", "mesh_catalog.json", "names.json", "pakinfo.json")
-
-# 随包的 UI 图标库（游戏目录里没有 UIIcon 时靠它出缩略图）
-ICONPACK = os.path.join(work, "icons.db")
-if os.path.exists(ICONPACK):
-    datas.append((ICONPACK, "dfdata"))
+# 物品图标库（icons.db）与中文名表（names.json）属于游戏派生素材，不随包分发：
+# 显示名由 core/humanize.py 从资产代号生成，图标用彩色占位块。
+WORK_FILES = ("AESKey1.json", "mesh_catalog.json", "pakinfo.json")
 
 # 界面里用到的图片（启动画面 logo 等）随包进 _internal/assets
 LOGO = os.path.join(ROOT, "assets", "logo.png")

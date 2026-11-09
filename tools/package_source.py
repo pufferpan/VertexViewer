@@ -65,10 +65,16 @@ def main():
             add(path, 'tools/'+relative.as_posix())
     for name in ('__main__.py', 'cache.py', 'VertexViewer.spec', 'requirements.txt',
                  'requirements-build.txt', 'README-source.md', 'README.md', 'NOTES.md',
-                 'build-source.ps1', '启动 VertexViewer.bat', 'Auctioneers.locres.bin', 'Weapon.locres.bin'):
-        add(BASE/name, name)
-    for name in ('icons.db', 'mesh_catalog.json', 'names.json', 'pakinfo.json'):
-        add(BASE/'work'/name, 'work/'+name)
+                 'build-source.ps1', '启动 VertexViewer.bat'):
+        path = BASE/name
+        if path.exists():
+            add(path, name)
+    # 游戏派生数据（物品图标库、中文名表、本地化表）不进发布包：
+    # 显示名由 core/humanize.py 从代号生成，图标用占位块。
+    for name in ('mesh_catalog.json', 'pakinfo.json'):
+        path = BASE/'work'/name
+        if path.exists():
+            add(path, 'work/'+name)
 
     sdk = args.animation_sdk or BASE/'tools/animation_bridge/sdk'
     if not sdk.is_dir() and args.animation_sdk is None: sdk = BASE/'work/animation-hands-sdk'

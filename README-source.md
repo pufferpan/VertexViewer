@@ -9,11 +9,11 @@
 
 - `app/`、`core/`、`render/`、`exporters/`、`cache.py`、`__main__.py`：桌面程序、渲染器、着色器和导出逻辑。
 - `assets/`：向导截图、字体、启动音乐、感谢名单、授权公钥、现成的动画解码组件及所需 Windows x64 运行时。
-- `work/`：仅保留 `mesh_catalog.json`、`names.json`、`pakinfo.json`、`icons.db` 四项静态资源。
+- `work/`：只保留 `mesh_catalog.json`、`pakinfo.json` 两项索引元数据；`AESKey1.json` 自备。物品图标库（`icons.db`）、中文名表（`names.json`）与根目录 locres 表**均不随包**，显示名由 `core/humanize.py` 从资产代号生成。
 - `tools/animation_bridge/`：动画桥接器 C# 源码、项目文件、SDK 校验记录；`sdk/` 含本机编译时使用的 37 个依赖程序集。
 - `third_party/CUE4Parse-native/`：本机动画原生解码组件所用的 CUE4Parse 源码快照，包含 ACL、RTM 等已展开子模块和许可证；不含 Git 历史和编译目录。
 - `third_party/fluentpy-qt/`：当前使用的 FluentPy 0.7.3 源码、资源和发行元数据。
-- `tests/`、`tools/`、`docs/`、`_cue/`：测试、维护工具、文档与早期解析参考材料；根目录 locres 数据为原有语言提取输入。
+- `tests/`、`tools/`、`docs/`、`_cue/`：测试、维护工具、文档与早期解析参考材料。
 - `VertexViewer.spec`、`build-source.ps1`、`requirements*.txt`：打包入口和固定依赖。
 - `SOURCE-MANIFEST.json`：包内所有文件的大小和 SHA256。
 

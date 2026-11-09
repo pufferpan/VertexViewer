@@ -214,8 +214,19 @@ def lookup(asset_path: str) -> dict:
 
 
 def resolve_cn(asset_path: str) -> str:
-    """资产路径 → 中文名；拿不到返回 ''。"""
-    return (lookup(asset_path) or {}).get('cn', '') or ''
+    """资产路径 → 显示名。
+
+    先查名字表（如果使用者自己放了 `names.json`）；没有就用 `core.humanize`
+    从代号拼一个（仓库不附带游戏文本，所以默认走这条）。
+    """
+    hit = (lookup(asset_path) or {}).get('cn', '') or ''
+    if hit:
+        return hit
+    try:
+        from . import humanize
+        return humanize.pretty(asset_path)
+    except Exception:                                          # noqa: BLE001
+        return ''
 
 
 def resolve(asset_path: str) -> dict:
@@ -249,7 +260,8 @@ CAT_RULES = [
     ('瞄具', ('瞄具', '瞄准镜', '红点', '全息', '倍镜', '准星配件', '侧瞄', '热成像', '夜视')),
     ('配件', ('枪管', '枪托', '握把', '护木', '消音', '抑制器', '导轨', '枪口', '准星', '扳机',
               '枪机', '复进', '导气', '配件', '套件', '改装', '上机匣', '下机匣', '缓冲',
-              '枪族', '握片', '射击模式', '后握')),
+              '枪族', '握片', '射击模式', '后握', '机匣', '两脚架', '前握把', '消焰器',
+              '补偿器', '护盖', '战术装置', '后照门')),
     ('弹药', ('子弹', '弹药', '弹头', '穿甲弹', '曳光弹', '弹丸')),
     ('武器', ('步枪', '冲锋枪', '霰弹枪', '狙击枪', '精确射手', '轻机枪', '机枪', '手枪', '左轮',
               '近战', '刀', '斧', '锤', '匕首', '弓', '弩', '投掷', '手雷', '烟雾弹', '震撼弹',
@@ -319,6 +331,13 @@ def category_of(asset_path: str, cn: str = "") -> str:
     if not name:
         try:
             name = (lookup(asset_path) or {}).get("cn", "") or ""
+        except Exception:                                      # noqa: BLE001
+            name = ""
+    if not name:
+        # 仓库不附带游戏文本：没有名字表时用代号拼的显示名兜底
+        try:
+            from . import humanize
+            name = humanize.pretty(asset_path)
         except Exception:                                      # noqa: BLE001
             name = ""
 
