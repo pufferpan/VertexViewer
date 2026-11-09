@@ -1,0 +1,66 @@
+{
+ "format": "GL metres; \u7531 tools/calibrate_parts.py \u7528 GunPresetBoundsTable \u6807\u5b9a",
+ "offsets": {
+  "models/weapons/parts/sto/sto_a_hk416c_041/sto_a_hk416c_041_3p": [
+   -0.12215,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_a_m4a1-std_001/sto_a_m4a1-std_001_3p": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_a_sig1_094/sto_a_sig1_094_3p": [
+   -0.01438,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_a_slimline_085/sto_a_slimline_085_3p": [
+   -0.00791,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_s_advanceart_160/sto_s_advanceart_160_3p": [
+   -0.0077,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_s_ak19_109/sto_s_ak19_109_3p": [
+   -0.07469,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_s_ar57std_167/sto_s_ar57std_167_3p": [
+   -0.07206,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_s_cqr2_112/sto_s_cqr2_112_3p": [
+   -0.01394,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_s_frame_114/sto_s_frame_114_3p": [
+   -0.03502,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_t_am17_141/sto_t_am17_141_3p": [
+   -0.05084,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_t_hk437_136/sto_t_hk437_136_3p": [
+   -0.09179,
+   0.0,
+   0.0
+  ],
+  "models/weapons/parts/sto/sto_t_mk47_156/sto_t_mk47_156_3p": [
+   -0.01943,
+   0.0,
+   0.0
+  ]
+ },
+ "presets": 700
+}

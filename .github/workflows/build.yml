@@ -1,0 +1,63 @@
+name: build
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 动画解码组件（自包含 win-x64）
+        run: |
+          dotnet publish tools/animation_bridge/VertexViewer.AnimationBridge.csproj `
+            -c Release -r win-x64 --self-contained true `
+            -p:SdkDirectory="${{ github.workspace }}/tools/animation_bridge/sdk" `
+            -p:DebugType=None -p:DebugSymbols=false -o assets/animation
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 依赖
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-build.txt
+
+      - name: 打包单文件 exe
+        env:
+          VERTEXVIEWER_ONEFILE: "1"
+        run: python -m PyInstaller --noconfirm VertexViewer.spec
+
+      - name: 校验产物
+        run: |
+          if (-not (Test-Path dist/VertexViewer.exe)) { throw "没有生成 dist/VertexViewer.exe" }
+          Get-Item dist/VertexViewer.exe | Select-Object Name, Length
+          (Get-FileHash dist/VertexViewer.exe -Algorithm SHA256).Hash.ToLower() + "  VertexViewer.exe" |
+            Out-File -Encoding ascii dist/VertexViewer.exe.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VertexViewer-windows-x64
+          path: |
+            dist/VertexViewer.exe
+            dist/VertexViewer.exe.sha256
+
+      - name: 发布 Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/VertexViewer.exe
+            dist/VertexViewer.exe.sha256
+          body: |
+            单文件版 `VertexViewer.exe`（Windows x64），附 SHA256。
+
+            首次启动选游戏目录（含 `Content\Paks` 的那一层），第一次会扫 pak 建索引。
+            解包密钥 `AESKey1.json` 不随包分发，自备放到 exe 旁的 `data\AESKey1.json` 或源码 `work\AESKey1.json`。

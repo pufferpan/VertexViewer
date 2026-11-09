@@ -1,0 +1,3086 @@
+{
+ "pak-0-0-pakchunk1-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk1-WindowsClient.pak",
+  "size": 2108631113,
+  "key": "8E3470744DE2B5672FB55D9F712AB554",
+  "mask": "0x18",
+  "files": 11816,
+  "mount": "../../../",
+  "fdi": [
+   2105528378,
+   469616
+  ]
+ },
+ "pak-0-0-pakchunk171-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk171-WindowsClient.pak",
+  "size": 274914719,
+  "key": "3CD74D546C904D0E998909AE5B43DD95",
+  "mask": "0x4",
+  "files": 2558,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   274756850,
+   157648
+  ]
+ },
+ "pak-0-0-pakchunk171optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk171optional-WindowsClient.pak",
+  "size": 156807632,
+  "key": "3CD74D546C904D0E998909AE5B43DD95",
+  "mask": "0x4",
+  "files": 355,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   156776307,
+   31104
+  ]
+ },
+ "pak-0-0-pakchunk171uhd-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk171uhd-WindowsClient.pak",
+  "size": 50911,
+  "key": "3CD74D546C904D0E998909AE5B43DD95",
+  "mask": "0x4",
+  "files": 5,
+  "mount": "../../../DeltaForce/Content/Environment/Props/",
+  "fdi": [
+   50258,
+   432
+  ]
+ },
+ "pak-0-0-pakchunk178-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk178-WindowsClient.pak",
+  "size": 307236862,
+  "key": "E9F4AD7A92F147A4A16FF0B92CDC9DE5",
+  "mask": "0xc3",
+  "files": 1634,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   307148769,
+   87872
+  ]
+ },
+ "pak-0-0-pakchunk178optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk178optional-WindowsClient.pak",
+  "size": 79285866,
+  "key": "E9F4AD7A92F147A4A16FF0B92CDC9DE5",
+  "mask": "0xc3",
+  "files": 117,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   79276221,
+   9424
+  ]
+ },
+ "pak-0-0-pakchunk19-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk19-WindowsClient.pak",
+  "size": 7030131,
+  "key": "EA6614BE4D7559D4873ED48E62390985",
+  "mask": "0x7b",
+  "files": 44,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   7027974,
+   1936
+  ]
+ },
+ "pak-0-0-pakchunk196-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk196-WindowsClient.pak",
+  "size": 120024349,
+  "key": "6867624C10294E4284B741EF8E54DD4C",
+  "mask": "0x72",
+  "files": 532,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   119993120,
+   31008
+  ]
+ },
+ "pak-0-0-pakchunk196optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk196optional-WindowsClient.pak",
+  "size": 3280795,
+  "key": "6867624C10294E4284B741EF8E54DD4C",
+  "mask": "0x72",
+  "files": 16,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   3278158,
+   2416
+  ]
+ },
+ "pak-0-0-pakchunk197-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk197-WindowsClient.pak",
+  "size": 1765478941,
+  "key": "5D6E25A5D55B407BA55D91D4F50EF973",
+  "mask": "0x90",
+  "files": 14597,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1764468096,
+   1010624
+  ]
+ },
+ "pak-0-0-pakchunk197optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk197optional-WindowsClient.pak",
+  "size": 140318617,
+  "key": "5D6E25A5D55B407BA55D91D4F50EF973",
+  "mask": "0x90",
+  "files": 388,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   140274204,
+   44192
+  ]
+ },
+ "pak-0-0-pakchunk1optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk1optional-WindowsClient.pak",
+  "size": 322391567,
+  "key": "8E3470744DE2B5672FB55D9F712AB554",
+  "mask": "0x18",
+  "files": 55,
+  "mount": "../../../",
+  "fdi": [
+   322386530,
+   4816
+  ]
+ },
+ "pak-0-0-pakchunk2-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk2-WindowsClient.pak",
+  "size": 73304322,
+  "key": "2834076B4222E70CC23D82A798AFF9A1",
+  "mask": "0xaf",
+  "files": 10616,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   72867765,
+   436336
+  ]
+ },
+ "pak-0-0-pakchunk20-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk20-WindowsClient.pak",
+  "size": 504945029,
+  "key": "9CF921EE4DF4368F76F8FFB947FA9392",
+  "mask": "0xae",
+  "files": 30447,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   503682296,
+   1262512
+  ]
+ },
+ "pak-0-0-pakchunk20optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk20optional-WindowsClient.pak",
+  "size": 2287382,
+  "key": "9CF921EE4DF4368F76F8FFB947FA9392",
+  "mask": "0xae",
+  "files": 27,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   2285961,
+   1200
+  ]
+ },
+ "pak-0-0-pakchunk211-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk211-WindowsClient.pak",
+  "size": 1470019,
+  "key": "F139C40043B883CF74EF138BCA93F0F4",
+  "mask": "0x46",
+  "files": 110,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1463382,
+   6416
+  ]
+ },
+ "pak-0-0-pakchunk215-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk215-WindowsClient.pak",
+  "size": 541581077,
+  "key": "69A5757649325D08EF0148B3FBCA3140",
+  "mask": "0x90",
+  "files": 3410,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   541395560,
+   185296
+  ]
+ },
+ "pak-0-0-pakchunk215optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk215optional-WindowsClient.pak",
+  "size": 114521542,
+  "key": "69A5757649325D08EF0148B3FBCA3140",
+  "mask": "0x90",
+  "files": 294,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   114498729,
+   22592
+  ]
+ },
+ "pak-0-0-pakchunk216-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk216-WindowsClient.pak",
+  "size": 3514452347,
+  "key": "4524D87943AD6852688E86B9F4D8663E",
+  "mask": "0x9f",
+  "files": 25569,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   3512473342,
+   1978784
+  ]
+ },
+ "pak-0-0-pakchunk216optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk216optional-WindowsClient.pak",
+  "size": 288054547,
+  "key": "4524D87943AD6852688E86B9F4D8663E",
+  "mask": "0x9f",
+  "files": 576,
+  "mount": "../../../DeltaForce/Content/GenTexDirHD/Game/",
+  "fdi": [
+   287993718,
+   60608
+  ]
+ },
+ "pak-0-0-pakchunk218-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk218-WindowsClient.pak",
+  "size": 17144965,
+  "key": "25F8559C4FE6703CA22499BD96036E2E",
+  "mask": "0x6",
+  "files": 254,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   17130152,
+   14592
+  ]
+ },
+ "pak-0-0-pakchunk220-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk220-WindowsClient.pak",
+  "size": 2079015,
+  "key": "9CF921EE4DF4368F76F8FFB947FA9392",
+  "mask": "0xae",
+  "files": 2314,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1987754,
+   91040
+  ]
+ },
+ "pak-0-0-pakchunk222-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk222-WindowsClient.pak",
+  "size": 16614558,
+  "key": "432588A44BB5ED31F4B2C3AC4C86957A",
+  "mask": "0x3d",
+  "files": 148,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   16603473,
+   10864
+  ]
+ },
+ "pak-0-0-pakchunk222optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk222optional-WindowsClient.pak",
+  "size": 15977416,
+  "key": "432588A44BB5ED31F4B2C3AC4C86957A",
+  "mask": "0x3d",
+  "files": 21,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   15973963,
+   3232
+  ]
+ },
+ "pak-0-0-pakchunk228-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk228-WindowsClient.pak",
+  "size": 316923718,
+  "key": "C6E909AD485A4F7DFD5CE9BC26D68D58",
+  "mask": "0x9a",
+  "files": 1062,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   316859801,
+   63696
+  ]
+ },
+ "pak-0-0-pakchunk228optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk228optional-WindowsClient.pak",
+  "size": 52312987,
+  "key": "C6E909AD485A4F7DFD5CE9BC26D68D58",
+  "mask": "0x9a",
+  "files": 81,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   52302958,
+   9808
+  ]
+ },
+ "pak-0-0-pakchunk229-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk229-WindowsClient.pak",
+  "size": 2632493072,
+  "key": "829BF3E44695E18F9935D5BFE381936C",
+  "mask": "0xd8",
+  "files": 20265,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   2630939315,
+   1553536
+  ]
+ },
+ "pak-0-0-pakchunk229optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk229optional-WindowsClient.pak",
+  "size": 75941710,
+  "key": "829BF3E44695E18F9935D5BFE381936C",
+  "mask": "0xd8",
+  "files": 230,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   75911985,
+   29504
+  ]
+ },
+ "pak-0-0-pakchunk230-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk230-WindowsClient.pak",
+  "size": 9492342,
+  "key": "589F83DC43FDDB714A31BA9137418EAC",
+  "mask": "0x81",
+  "files": 86,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   9487225,
+   4896
+  ]
+ },
+ "pak-0-0-pakchunk231-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk231-WindowsClient.pak",
+  "size": 65623454,
+  "key": "4379B07547E738B2CC5860BFD56C0418",
+  "mask": "0x79",
+  "files": 741,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   65580705,
+   42528
+  ]
+ },
+ "pak-0-0-pakchunk231optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk231optional-WindowsClient.pak",
+  "size": 188271,
+  "key": "4379B07547E738B2CC5860BFD56C0418",
+  "mask": "0x79",
+  "files": 4,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   187154,
+   896
+  ]
+ },
+ "pak-0-0-pakchunk234-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk234-WindowsClient.pak",
+  "size": 88911427,
+  "key": "AF14F52D44AC01CCBA3E4E9F39A8B988",
+  "mask": "0xd",
+  "files": 779,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   88859590,
+   51616
+  ]
+ },
+ "pak-0-0-pakchunk235-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk235-WindowsClient.pak",
+  "size": 280644508,
+  "key": "117DAEDA4C94B2CC7F073EB2D4675980",
+  "mask": "0x8e",
+  "files": 2521,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   280493391,
+   150896
+  ]
+ },
+ "pak-0-0-pakchunk236-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk236-WindowsClient.pak",
+  "size": 234033866,
+  "key": "BFF850F94355520607B48B9593612A5A",
+  "mask": "0x2e",
+  "files": 1780,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   233921005,
+   112640
+  ]
+ },
+ "pak-0-0-pakchunk236optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk236optional-WindowsClient.pak",
+  "size": 543920,
+  "key": "BFF850F94355520607B48B9593612A5A",
+  "mask": "0x2e",
+  "files": 5,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   542563,
+   1136
+  ]
+ },
+ "pak-0-0-pakchunk237-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk237-WindowsClient.pak",
+  "size": 244256890,
+  "key": "8F540DD3486F13C0C1C12089093A8CB7",
+  "mask": "0x84",
+  "files": 2293,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   244104525,
+   152144
+  ]
+ },
+ "pak-0-0-pakchunk238-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk238-WindowsClient.pak",
+  "size": 75453097,
+  "key": "325352514F56D4088ED6459D0CB70EBD",
+  "mask": "0xdf",
+  "files": 1360,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   75367964,
+   84912
+  ]
+ },
+ "pak-0-0-pakchunk238optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk238optional-WindowsClient.pak",
+  "size": 5883616,
+  "key": "325352514F56D4088ED6459D0CB70EBD",
+  "mask": "0xdf",
+  "files": 11,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5881827,
+   1568
+  ]
+ },
+ "pak-0-0-pakchunk239-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk239-WindowsClient.pak",
+  "size": 169119284,
+  "key": "EBF946B4405F5FAEE3E3C7B6D6E0FBFC",
+  "mask": "0x24",
+  "files": 1101,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   169040535,
+   78528
+  ]
+ },
+ "pak-0-0-pakchunk240-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk240-WindowsClient.pak",
+  "size": 362110355,
+  "key": "F3EA4AF240E99E293F0841AEBF421664",
+  "mask": "0x83",
+  "files": 3162,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   361894054,
+   216080
+  ]
+ },
+ "pak-0-0-pakchunk240optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk240optional-WindowsClient.pak",
+  "size": 581383,
+  "key": "F3EA4AF240E99E293F0841AEBF421664",
+  "mask": "0x83",
+  "files": 8,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   580186,
+   976
+  ]
+ },
+ "pak-0-0-pakchunk242-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk242-WindowsClient.pak",
+  "size": 130220803,
+  "key": "E04E748040DCD819A11EC7B2EBA35419",
+  "mask": "0x10",
+  "files": 1460,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   130116310,
+   104272
+  ]
+ },
+ "pak-0-0-pakchunk242optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk242optional-WindowsClient.pak",
+  "size": 1051295,
+  "key": "E04E748040DCD819A11EC7B2EBA35419",
+  "mask": "0x10",
+  "files": 14,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1048994,
+   2080
+  ]
+ },
+ "pak-0-0-pakchunk246-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk246-WindowsClient.pak",
+  "size": 26186539,
+  "key": "E53F96904F8A68BF662BA88805AB52A9",
+  "mask": "0xdc",
+  "files": 181,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   26174830,
+   11488
+  ]
+ },
+ "pak-0-0-pakchunk247-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk247-WindowsClient.pak",
+  "size": 35280662,
+  "key": "DBB1940F403BF378C129B59C48B80E21",
+  "mask": "0xbe",
+  "files": 180,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   35268297,
+   12144
+  ]
+ },
+ "pak-0-0-pakchunk248-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk248-WindowsClient.pak",
+  "size": 60803096,
+  "key": "F954AD74434867B3D6F62DB53B6B1959",
+  "mask": "0xb2",
+  "files": 184,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   60790763,
+   12112
+  ]
+ },
+ "pak-0-0-pakchunk249-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk249-WindowsClient.pak",
+  "size": 20842526,
+  "key": "C638A368429FC1A5BE2AC48D57696D31",
+  "mask": "0x24",
+  "files": 216,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   20826529,
+   15776
+  ]
+ },
+ "pak-0-0-pakchunk250-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk250-WindowsClient.pak",
+  "size": 18980743,
+  "key": "6B7FBED04133B7C3FBA2EEB2E7E3AF87",
+  "mask": "0xdb",
+  "files": 222,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   18968954,
+   11568
+  ]
+ },
+ "pak-0-0-pakchunk251-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk251-WindowsClient.pak",
+  "size": 19347325,
+  "key": "A66E94654591F5544E7F2194AEDA95EE",
+  "mask": "0x4c",
+  "files": 286,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   19331008,
+   16096
+  ]
+ },
+ "pak-0-0-pakchunk251optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk251optional-WindowsClient.pak",
+  "size": 36468949,
+  "key": "A66E94654591F5544E7F2194AEDA95EE",
+  "mask": "0x4c",
+  "files": 46,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   36464456,
+   4272
+  ]
+ },
+ "pak-0-0-pakchunk252-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk252-WindowsClient.pak",
+  "size": 18495386,
+  "key": "1DEEAED24CB928AABE8802A46EE51220",
+  "mask": "0x3",
+  "files": 279,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   18479741,
+   15424
+  ]
+ },
+ "pak-0-0-pakchunk252optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk252optional-WindowsClient.pak",
+  "size": 35250870,
+  "key": "1DEEAED24CB928AABE8802A46EE51220",
+  "mask": "0x3",
+  "files": 41,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   35246937,
+   3712
+  ]
+ },
+ "pak-0-0-pakchunk253-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk253-WindowsClient.pak",
+  "size": 16342351,
+  "key": "6E39FFF841D7479AE3E936B6C462017C",
+  "mask": "0x21",
+  "files": 299,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   16326498,
+   15632
+  ]
+ },
+ "pak-0-0-pakchunk253optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk253optional-WindowsClient.pak",
+  "size": 28110733,
+  "key": "6E39FFF841D7479AE3E936B6C462017C",
+  "mask": "0x21",
+  "files": 44,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   28107040,
+   3472
+  ]
+ },
+ "pak-0-0-pakchunk254-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk254-WindowsClient.pak",
+  "size": 333941855,
+  "key": "D600001F421F2297558C4CB42F8B6BF8",
+  "mask": "0xaa",
+  "files": 8126,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   333389090,
+   552544
+  ]
+ },
+ "pak-0-0-pakchunk254optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk254optional-WindowsClient.pak",
+  "size": 409404902,
+  "key": "D600001F421F2297558C4CB42F8B6BF8",
+  "mask": "0xaa",
+  "files": 1073,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   409273241,
+   131440
+  ]
+ },
+ "pak-0-0-pakchunk255-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk255-WindowsClient.pak",
+  "size": 209330557,
+  "key": "A4AD0ED84EF512601D250E824D7AF6FF",
+  "mask": "0xea",
+  "files": 815,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   209281552,
+   48784
+  ]
+ },
+ "pak-0-0-pakchunk255optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk255optional-WindowsClient.pak",
+  "size": 33616883,
+  "key": "A4AD0ED84EF512601D250E824D7AF6FF",
+  "mask": "0xea",
+  "files": 58,
+  "mount": "../../../DeltaForce/Content/Commerical/",
+  "fdi": [
+   33609862,
+   6800
+  ]
+ },
+ "pak-0-0-pakchunk256-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk256-WindowsClient.pak",
+  "size": 3641127706,
+  "key": "D63EC973494198061A1FA69E2E6084CA",
+  "mask": "0x60",
+  "files": 25862,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   3639126909,
+   2000576
+  ]
+ },
+ "pak-0-0-pakchunk259-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk259-WindowsClient.pak",
+  "size": 689405313,
+  "key": "490DF08D41B82473B7497DBAF3745DEB",
+  "mask": "0x6d",
+  "files": 3525,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   689202212,
+   202880
+  ]
+ },
+ "pak-0-0-pakchunk259optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk259optional-WindowsClient.pak",
+  "size": 245091654,
+  "key": "490DF08D41B82473B7497DBAF3745DEB",
+  "mask": "0x6d",
+  "files": 303,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   245065433,
+   26000
+  ]
+ },
+ "pak-0-0-pakchunk260-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk260-WindowsClient.pak",
+  "size": 3029484524,
+  "key": "35E41CBE42C828DAE84EFEB455144817",
+  "mask": "0xc2",
+  "files": 23844,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   3027622831,
+   1861472
+  ]
+ },
+ "pak-0-0-pakchunk260optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk260optional-WindowsClient.pak",
+  "size": 43744278,
+  "key": "35E41CBE42C828DAE84EFEB455144817",
+  "mask": "0xc2",
+  "files": 60,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   43733673,
+   10384
+  ]
+ },
+ "pak-0-0-pakchunk271-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk271-WindowsClient.pak",
+  "size": 21761314,
+  "key": "FE3A403945A3ECBF387516BC000DBEC9",
+  "mask": "0xfb",
+  "files": 368,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   21741237,
+   19856
+  ]
+ },
+ "pak-0-0-pakchunk271optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk271optional-WindowsClient.pak",
+  "size": 35781588,
+  "key": "FE3A403945A3ECBF387516BC000DBEC9",
+  "mask": "0xfb",
+  "files": 56,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   35776743,
+   4624
+  ]
+ },
+ "pak-0-0-pakchunk272-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk272-WindowsClient.pak",
+  "size": 78201003,
+  "key": "0C5012B7499B7850296385AA591912FE",
+  "mask": "0x6b",
+  "files": 1295,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   78111790,
+   88992
+  ]
+ },
+ "pak-0-0-pakchunk272optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk272optional-WindowsClient.pak",
+  "size": 5802824,
+  "key": "0C5012B7499B7850296385AA591912FE",
+  "mask": "0x6b",
+  "files": 17,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5800091,
+   2512
+  ]
+ },
+ "pak-0-0-pakchunk274-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk274-WindowsClient.pak",
+  "size": 25080885,
+  "key": "5A560F8949BD1626DA0E878765D2BE9F",
+  "mask": "0x6",
+  "files": 336,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   25057624,
+   23040
+  ]
+ },
+ "pak-0-0-pakchunk274optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk274optional-WindowsClient.pak",
+  "size": 48818355,
+  "key": "5A560F8949BD1626DA0E878765D2BE9F",
+  "mask": "0x6",
+  "files": 47,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   48813718,
+   4416
+  ]
+ },
+ "pak-0-0-pakchunk28-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk28-WindowsClient.pak",
+  "size": 176123422,
+  "key": "C6E909AD485A4F7DFD5CE9BC26D68D58",
+  "mask": "0x9a",
+  "files": 14795,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   175435953,
+   687248
+  ]
+ },
+ "pak-0-0-pakchunk288-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk288-WindowsClient.pak",
+  "size": 19121345,
+  "key": "50A369AE41A99CDBE3E2BAB047971155",
+  "mask": "0x5f",
+  "files": 643,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   19090884,
+   30240
+  ]
+ },
+ "pak-0-0-pakchunk28optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk28optional-WindowsClient.pak",
+  "size": 67843852,
+  "key": "C6E909AD485A4F7DFD5CE9BC26D68D58",
+  "mask": "0x9a",
+  "files": 129,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   67829951,
+   13680
+  ]
+ },
+ "pak-0-0-pakchunk29-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk29-WindowsClient.pak",
+  "size": 13982250,
+  "key": "829BF3E44695E18F9935D5BFE381936C",
+  "mask": "0xd8",
+  "files": 184,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   13974605,
+   7424
+  ]
+ },
+ "pak-0-0-pakchunk295-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk295-WindowsClient.pak",
+  "size": 241309928,
+  "key": "2CF1E26244A5FF203C6D47B007246038",
+  "mask": "0xbe",
+  "files": 8091,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   240846443,
+   463264
+  ]
+ },
+ "pak-0-0-pakchunk295optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk295optional-WindowsClient.pak",
+  "size": 358459559,
+  "key": "2CF1E26244A5FF203C6D47B007246038",
+  "mask": "0xbe",
+  "files": 472,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   358418714,
+   40624
+  ]
+ },
+ "pak-0-0-pakchunk296-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk296-WindowsClient.pak",
+  "size": 97803237,
+  "key": "B1D87AD245045F18893D019E5A861FB8",
+  "mask": "0x24",
+  "files": 1111,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   97743048,
+   59968
+  ]
+ },
+ "pak-0-0-pakchunk296optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk296optional-WindowsClient.pak",
+  "size": 7995416,
+  "key": "B1D87AD245045F18893D019E5A861FB8",
+  "mask": "0x24",
+  "files": 40,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   7991147,
+   4048
+  ]
+ },
+ "pak-0-0-pakchunk298-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk298-WindowsClient.pak",
+  "size": 24903444,
+  "key": "2136F31A472760E17D4713AD9CD4FE12",
+  "mask": "0x6b",
+  "files": 727,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   24857575,
+   45648
+  ]
+ },
+ "pak-0-0-pakchunk299-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk299-WindowsClient.pak",
+  "size": 53325132,
+  "key": "7A9A27E9401AC52EBE67B0B2F3505FFC",
+  "mask": "0x3",
+  "files": 777,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   53276383,
+   48528
+  ]
+ },
+ "pak-0-0-pakchunk2optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk2optional-WindowsClient.pak",
+  "size": 28260341,
+  "key": "2834076B4222E70CC23D82A798AFF9A1",
+  "mask": "0xaf",
+  "files": 140,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   28249800,
+   10320
+  ]
+ },
+ "pak-0-0-pakchunk3-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk3-WindowsClient.pak",
+  "size": 11899686,
+  "key": "BDF41EF84E9384DF2EC7F298E1FA667E",
+  "mask": "0x9",
+  "files": 117,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   11893721,
+   5744
+  ]
+ },
+ "pak-0-0-pakchunk301-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk301-WindowsClient.pak",
+  "size": 29039675,
+  "key": "C599BADE82B247529810A4C101C49E8B",
+  "mask": "0xef",
+  "files": 839,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   28984926,
+   54528
+  ]
+ },
+ "pak-0-0-pakchunk301optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk301optional-WindowsClient.pak",
+  "size": 58963765,
+  "key": "C599BADE82B247529810A4C101C49E8B",
+  "mask": "0xef",
+  "files": 109,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   58953384,
+   10160
+  ]
+ },
+ "pak-0-0-pakchunk301uhd-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk301uhd-WindowsClient.pak",
+  "size": 243717,
+  "key": "C599BADE82B247529810A4C101C49E8B",
+  "mask": "0xef",
+  "files": 7,
+  "mount": "../../../DeltaForce/Content/Environment/",
+  "fdi": [
+   242776,
+   720
+  ]
+ },
+ "pak-0-0-pakchunk302-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk302-WindowsClient.pak",
+  "size": 321421069,
+  "key": "C3E88E710D7340F1A39A66202D0AF016",
+  "mask": "0x1e",
+  "files": 1903,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   321315200,
+   105648
+  ]
+ },
+ "pak-0-0-pakchunk302optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk302optional-WindowsClient.pak",
+  "size": 51748999,
+  "key": "C3E88E710D7340F1A39A66202D0AF016",
+  "mask": "0x1e",
+  "files": 96,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   51737306,
+   11472
+  ]
+ },
+ "pak-0-0-pakchunk313-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk313-WindowsClient.pak",
+  "size": 120253,
+  "key": "24548E378B71480A916F2FB13521E82B",
+  "mask": "0x95",
+  "files": 14,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   118928,
+   1104
+  ]
+ },
+ "pak-0-0-pakchunk314-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk314-WindowsClient.pak",
+  "size": 2567482,
+  "key": "8D6A88EC6C284B9BAA96AF85BF0510DE",
+  "mask": "0xba",
+  "files": 90,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   2561101,
+   6160
+  ]
+ },
+ "pak-0-0-pakchunk361-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk361-WindowsClient.pak",
+  "size": 101889499,
+  "key": "111390AD58AB4BF7B38217509D961E16",
+  "mask": "0x71",
+  "files": 1673,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   101787246,
+   102032
+  ]
+ },
+ "pak-0-0-pakchunk361optional-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk361optional-WindowsClient.pak",
+  "size": 134491958,
+  "key": "111390AD58AB4BF7B38217509D961E16",
+  "mask": "0x71",
+  "files": 152,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   134477225,
+   14512
+  ]
+ },
+ "pak-0-0-pakchunk361uhd-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk361uhd-WindowsClient.pak",
+  "size": 11081919,
+  "key": "111390AD58AB4BF7B38217509D961E16",
+  "mask": "0x71",
+  "files": 24,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   11078914,
+   2784
+  ]
+ },
+ "pak-0-0-pakchunk77-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk77-WindowsClient.pak",
+  "size": 4940726,
+  "key": "90EFBB734520888981954CBB4BFD32D1",
+  "mask": "0x35",
+  "files": 178,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   4935289,
+   5216
+  ]
+ },
+ "pak-0-0-pakchunk9-WindowsClient.pak": {
+  "pak": "pak-0-0-pakchunk9-WindowsClient.pak",
+  "size": 118706,
+  "key": "7885C7C04B50AC8DED3E7681E9F3E315",
+  "mask": "0x43",
+  "files": 118,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   111237,
+   7248
+  ]
+ },
+ "pak-0-1-pakchunk10-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk10-WindowsClient.pak",
+  "size": 17570,
+  "key": "371847CA4A3FF83CC2850380C62B8BCE",
+  "mask": "0xc1",
+  "files": 18,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   16101,
+   1248
+  ]
+ },
+ "pak-0-1-pakchunk11-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk11-WindowsClient.pak",
+  "size": 18144348,
+  "key": "F139C40043B883CF74EF138BCA93F0F4",
+  "mask": "0x46",
+  "files": 17578,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   17554063,
+   590064
+  ]
+ },
+ "pak-0-1-pakchunk111-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk111-WindowsClient.pak",
+  "size": 33814724,
+  "key": "1F4CD611854F4EF8A69C51D0A4585C22",
+  "mask": "0x0",
+  "files": 499,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   33785991,
+   28512
+  ]
+ },
+ "pak-0-1-pakchunk12-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk12-WindowsClient.pak",
+  "size": 1888667,
+  "key": "FF526E934F8ADAF73317EE88BF38A655",
+  "mask": "0x81",
+  "files": 2176,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   1810702,
+   77744
+  ]
+ },
+ "pak-0-1-pakchunk124-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk124-WindowsClient.pak",
+  "size": 133365557,
+  "key": "8B1C4C8BFCAB4AF8BC9E3A775AE2A34A",
+  "mask": "0xd4",
+  "files": 4393,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   133129864,
+   235472
+  ]
+ },
+ "pak-0-1-pakchunk124optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk124optional-WindowsClient.pak",
+  "size": 9001579,
+  "key": "8B1C4C8BFCAB4AF8BC9E3A775AE2A34A",
+  "mask": "0xd4",
+  "files": 33,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   8997214,
+   4144
+  ]
+ },
+ "pak-0-1-pakchunk12optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk12optional-WindowsClient.pak",
+  "size": 59754363,
+  "key": "FF526E934F8ADAF73317EE88BF38A655",
+  "mask": "0x81",
+  "files": 758,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/Media/",
+  "fdi": [
+   59732590,
+   21552
+  ]
+ },
+ "pak-0-1-pakchunk13-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk13-WindowsClient.pak",
+  "size": 4884438,
+  "key": "F4D2C4D84CF7F879D350AEBBBAC9F697",
+  "mask": "0xbd",
+  "files": 4258,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   4682633,
+   201584
+  ]
+ },
+ "pak-0-1-pakchunk14-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk14-WindowsClient.pak",
+  "size": 5029088,
+  "key": "5CF529D04297E18ABF242F8276F066A5",
+  "mask": "0xb0",
+  "files": 5014,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   4788531,
+   240336
+  ]
+ },
+ "pak-0-1-pakchunk141-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk141-WindowsClient.pak",
+  "size": 3692770,
+  "key": "1CA14B4FC6EB47E6A2464E6388A9E365",
+  "mask": "0x31",
+  "files": 30,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   3690421,
+   2128
+  ]
+ },
+ "pak-0-1-pakchunk142-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk142-WindowsClient.pak",
+  "size": 4673044,
+  "key": "7F1449346FF54C209CF9597C300F57FE",
+  "mask": "0x9",
+  "files": 30,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4670839,
+   1984
+  ]
+ },
+ "pak-0-1-pakchunk143-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk143-WindowsClient.pak",
+  "size": 4615745,
+  "key": "425992DF64E14C69B6ABF6DE9D7C3CA1",
+  "mask": "0x17",
+  "files": 30,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4613540,
+   1984
+  ]
+ },
+ "pak-0-1-pakchunk144-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk144-WindowsClient.pak",
+  "size": 4532233,
+  "key": "70EB0FB5304040678B6D188D7BAC10D0",
+  "mask": "0xa3",
+  "files": 30,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4530028,
+   1984
+  ]
+ },
+ "pak-0-1-pakchunk145-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk145-WindowsClient.pak",
+  "size": 4670717,
+  "key": "C47900BC482D4A98A2C35A2308BB4844",
+  "mask": "0xff",
+  "files": 30,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4668512,
+   1984
+  ]
+ },
+ "pak-0-1-pakchunk146-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk146-WindowsClient.pak",
+  "size": 4413952,
+  "key": "FD94202B5725429E8B9AD07E8D659425",
+  "mask": "0xc0",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4411667,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk147-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk147-WindowsClient.pak",
+  "size": 4665437,
+  "key": "8D0ED57FCDD341459F5EFD769F1265CE",
+  "mask": "0xac",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4663152,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk148-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk148-WindowsClient.pak",
+  "size": 3945835,
+  "key": "99D2356BF61446CA9C73EC7DD15457EA",
+  "mask": "0x93",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   3943550,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk149-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk149-WindowsClient.pak",
+  "size": 4796208,
+  "key": "34426AD077CC40BC9A5F6B20F9642C08",
+  "mask": "0x6c",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4793923,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk150-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk150-WindowsClient.pak",
+  "size": 3961721,
+  "key": "34D9741AEE294803AF0C778D3FD79DB2",
+  "mask": "0xdc",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   3959436,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk151-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk151-WindowsClient.pak",
+  "size": 4217109,
+  "key": "C4F45CCE267246E5BD70CFFA319BDEBA",
+  "mask": "0x6e",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4214824,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk152-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk152-WindowsClient.pak",
+  "size": 4403761,
+  "key": "5817933B23CD4A66AECB1EB97C68782A",
+  "mask": "0x68",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4401476,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk153-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk153-WindowsClient.pak",
+  "size": 4505741,
+  "key": "14114A88C3A54ABEA26D2DD8278B68EB",
+  "mask": "0x10",
+  "files": 31,
+  "mount": "../../../DeltaForce/Content/Localization/",
+  "fdi": [
+   4503456,
+   2064
+  ]
+ },
+ "pak-0-1-pakchunk172-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk172-WindowsClient.pak",
+  "size": 15879307,
+  "key": "0562DD463DA0430488A10C9224784FE5",
+  "mask": "0x58",
+  "files": 309,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   15858078,
+   21008
+  ]
+ },
+ "pak-0-1-pakchunk172optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk172optional-WindowsClient.pak",
+  "size": 24841702,
+  "key": "0562DD463DA0430488A10C9224784FE5",
+  "mask": "0x58",
+  "files": 47,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   24836809,
+   4672
+  ]
+ },
+ "pak-0-1-pakchunk206-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk206-WindowsClient.pak",
+  "size": 32878886,
+  "key": "E6102B5E4AD1FC9BF33CC4B687CA7FB2",
+  "mask": "0x5b",
+  "files": 1974,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   32794361,
+   84304
+  ]
+ },
+ "pak-0-1-pakchunk207-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk207-WindowsClient.pak",
+  "size": 35349113,
+  "key": "F8756A644C0427832A64DE91B55894D6",
+  "mask": "0x66",
+  "files": 286,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   35338092,
+   10800
+  ]
+ },
+ "pak-0-1-pakchunk217-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk217-WindowsClient.pak",
+  "size": 5279730,
+  "key": "B72C60B24C4F622A41E13188B25FD8B1",
+  "mask": "0x7d",
+  "files": 28,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5277397,
+   2112
+  ]
+ },
+ "pak-0-1-pakchunk258-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk258-WindowsClient.pak",
+  "size": 657628685,
+  "key": "8A76CE6C454BC6B2416B2DB7B89E0CC6",
+  "mask": "0x9e",
+  "files": 4351,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   657371792,
+   256672
+  ]
+ },
+ "pak-0-1-pakchunk258optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk258optional-WindowsClient.pak",
+  "size": 387720180,
+  "key": "8A76CE6C454BC6B2416B2DB7B89E0CC6",
+  "mask": "0x9e",
+  "files": 569,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   387679335,
+   40624
+  ]
+ },
+ "pak-0-1-pakchunk275-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk275-WindowsClient.pak",
+  "size": 80861777,
+  "key": "54B25AC84EB10B9002B909BBEE5A8ECC",
+  "mask": "0x73",
+  "files": 930,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   80807252,
+   54304
+  ]
+ },
+ "pak-0-1-pakchunk275optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk275optional-WindowsClient.pak",
+  "size": 178998132,
+  "key": "54B25AC84EB10B9002B909BBEE5A8ECC",
+  "mask": "0x73",
+  "files": 147,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   178985815,
+   12096
+  ]
+ },
+ "pak-0-1-pakchunk276-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk276-WindowsClient.pak",
+  "size": 56049511,
+  "key": "F5148A234AAB16C9247BB89C702AEEA8",
+  "mask": "0x68",
+  "files": 976,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   55993946,
+   55344
+  ]
+ },
+ "pak-0-1-pakchunk276optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk276optional-WindowsClient.pak",
+  "size": 108320357,
+  "key": "F5148A234AAB16C9247BB89C702AEEA8",
+  "mask": "0x68",
+  "files": 165,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   108307608,
+   12528
+  ]
+ },
+ "pak-0-1-pakchunk286-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk286-WindowsClient.pak",
+  "size": 8118020,
+  "key": "C7A6458A4C08502999E3F08EFDA2671A",
+  "mask": "0x51",
+  "files": 205,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   8105927,
+   11872
+  ]
+ },
+ "pak-0-1-pakchunk30-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk30-WindowsClient.pak",
+  "size": 54802521,
+  "key": "589F83DC43FDDB714A31BA9137418EAC",
+  "mask": "0x81",
+  "files": 2670,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   54665820,
+   136480
+  ]
+ },
+ "pak-0-1-pakchunk30optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk30optional-WindowsClient.pak",
+  "size": 77580435,
+  "key": "589F83DC43FDDB714A31BA9137418EAC",
+  "mask": "0x81",
+  "files": 164,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   77566326,
+   13888
+  ]
+ },
+ "pak-0-1-pakchunk31-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk31-WindowsClient.pak",
+  "size": 1367572025,
+  "key": "4379B07547E738B2CC5860BFD56C0418",
+  "mask": "0x79",
+  "files": 62092,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1364094108,
+   3477696
+  ]
+ },
+ "pak-0-1-pakchunk311-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk311-WindowsClient.pak",
+  "size": 813919,
+  "key": "1F4CD611854F4EF8A69C51D0A4585C22",
+  "mask": "0x0",
+  "files": 4,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   813138,
+   560
+  ]
+ },
+ "pak-0-1-pakchunk318-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk318-WindowsClient.pak",
+  "size": 12786655,
+  "key": "9591DB86A93F4EB1A4565F7EB0138DFE",
+  "mask": "0xfd",
+  "files": 72,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   12782978,
+   3456
+  ]
+ },
+ "pak-0-1-pakchunk31optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk31optional-WindowsClient.pak",
+  "size": 1663120967,
+  "key": "4379B07547E738B2CC5860BFD56C0418",
+  "mask": "0x79",
+  "files": 5819,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1662555962,
+   564784
+  ]
+ },
+ "pak-0-1-pakchunk32-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk32-WindowsClient.pak",
+  "size": 284919313,
+  "key": "81E83455469B0C23EEB7E69926C25DFB",
+  "mask": "0xbf",
+  "files": 731,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   284877044,
+   42048
+  ]
+ },
+ "pak-0-1-pakchunk33-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk33-WindowsClient.pak",
+  "size": 65890023,
+  "key": "D6340C524C2DE1C9BF8884A746DFE596",
+  "mask": "0xaf",
+  "files": 861,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   65829658,
+   60144
+  ]
+ },
+ "pak-0-1-pakchunk33optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk33optional-WindowsClient.pak",
+  "size": 39430009,
+  "key": "D6340C524C2DE1C9BF8884A746DFE596",
+  "mask": "0xaf",
+  "files": 77,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   39419964,
+   9824
+  ]
+ },
+ "pak-0-1-pakchunk34-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk34-WindowsClient.pak",
+  "size": 2232386833,
+  "key": "AF14F52D44AC01CCBA3E4E9F39A8B988",
+  "mask": "0xd",
+  "files": 6749,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   2232072772,
+   313840
+  ]
+ },
+ "pak-0-1-pakchunk34optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk34optional-WindowsClient.pak",
+  "size": 121007350,
+  "key": "AF14F52D44AC01CCBA3E4E9F39A8B988",
+  "mask": "0xd",
+  "files": 246,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   120989401,
+   17728
+  ]
+ },
+ "pak-0-1-pakchunk35-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk35-WindowsClient.pak",
+  "size": 296886342,
+  "key": "117DAEDA4C94B2CC7F073EB2D4675980",
+  "mask": "0x8e",
+  "files": 3789,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   296654793,
+   231328
+  ]
+ },
+ "pak-0-1-pakchunk35optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk35optional-WindowsClient.pak",
+  "size": 619781018,
+  "key": "117DAEDA4C94B2CC7F073EB2D4675980",
+  "mask": "0x8e",
+  "files": 653,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   619726269,
+   54528
+  ]
+ },
+ "pak-0-1-pakchunk36-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk36-WindowsClient.pak",
+  "size": 29610782,
+  "key": "BFF850F94355520607B48B9593612A5A",
+  "mask": "0x2e",
+  "files": 4115,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   29443217,
+   167344
+  ]
+ },
+ "pak-0-1-pakchunk36optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk36optional-WindowsClient.pak",
+  "size": 24871199,
+  "key": "BFF850F94355520607B48B9593612A5A",
+  "mask": "0x2e",
+  "files": 539,
+  "mount": "../../../DeltaForce/Content/Effects/Common/",
+  "fdi": [
+   24849570,
+   21408
+  ]
+ },
+ "pak-0-1-pakchunk391-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk391-WindowsClient.pak",
+  "size": 116250619,
+  "key": "E968DC0EE397426DAFA13EEDACE6DDDC",
+  "mask": "0xa1",
+  "files": 1764,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   116125166,
+   125232
+  ]
+ },
+ "pak-0-1-pakchunk391optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk391optional-WindowsClient.pak",
+  "size": 5805278,
+  "key": "E968DC0EE397426DAFA13EEDACE6DDDC",
+  "mask": "0xa1",
+  "files": 27,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5802417,
+   2640
+  ]
+ },
+ "pak-0-1-pakchunk397-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk397-WindowsClient.pak",
+  "size": 4129817,
+  "key": "5D6E25A5D55B407BA55D91D4F50EF973",
+  "mask": "0x90",
+  "files": 105,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   4122684,
+   6912
+  ]
+ },
+ "pak-0-1-pakchunk397optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk397optional-WindowsClient.pak",
+  "size": 5867469,
+  "key": "5D6E25A5D55B407BA55D91D4F50EF973",
+  "mask": "0x90",
+  "files": 11,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5866000,
+   1248
+  ]
+ },
+ "pak-0-1-pakchunk6-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk6-WindowsClient.pak",
+  "size": 114627563,
+  "key": "E6102B5E4AD1FC9BF33CC4B687CA7FB2",
+  "mask": "0x5b",
+  "files": 111316,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   109672590,
+   4954752
+  ]
+ },
+ "pak-0-1-pakchunk6optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk6optional-WindowsClient.pak",
+  "size": 1737582524,
+  "key": "E6102B5E4AD1FC9BF33CC4B687CA7FB2",
+  "mask": "0x5b",
+  "files": 14859,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/Media/",
+  "fdi": [
+   1737172975,
+   409328
+  ]
+ },
+ "pak-0-1-pakchunk7-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk7-WindowsClient.pak",
+  "size": 2374380,
+  "key": "F8756A644C0427832A64DE91B55894D6",
+  "mask": "0x66",
+  "files": 2502,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   2268671,
+   105488
+  ]
+ },
+ "pak-0-1-pakchunk70-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk70-WindowsClient.pak",
+  "size": 15861379,
+  "key": "BB0C26A24D7C3DDFA9EFDF9B4B6E9490",
+  "mask": "0xf8",
+  "files": 232,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   15846774,
+   14384
+  ]
+ },
+ "pak-0-1-pakchunk71-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk71-WindowsClient.pak",
+  "size": 234830764,
+  "key": "FE3A403945A3ECBF387516BC000DBEC9",
+  "mask": "0xfb",
+  "files": 17252,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   233859999,
+   970544
+  ]
+ },
+ "pak-0-1-pakchunk71optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk71optional-WindowsClient.pak",
+  "size": 192788187,
+  "key": "FE3A403945A3ECBF387516BC000DBEC9",
+  "mask": "0xfb",
+  "files": 598,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   192735214,
+   52752
+  ]
+ },
+ "pak-0-1-pakchunk73-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk73-WindowsClient.pak",
+  "size": 230250244,
+  "key": "A01414714C0954004A9D908930943124",
+  "mask": "0xf3",
+  "files": 4217,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   230014087,
+   235936
+  ]
+ },
+ "pak-0-1-pakchunk73optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk73optional-WindowsClient.pak",
+  "size": 169602136,
+  "key": "A01414714C0954004A9D908930943124",
+  "mask": "0xf3",
+  "files": 381,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   169568843,
+   33072
+  ]
+ },
+ "pak-0-1-pakchunk74-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk74-WindowsClient.pak",
+  "size": 341248580,
+  "key": "5A560F8949BD1626DA0E878765D2BE9F",
+  "mask": "0x6",
+  "files": 6794,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   340851255,
+   397104
+  ]
+ },
+ "pak-0-1-pakchunk74optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk74optional-WindowsClient.pak",
+  "size": 393788689,
+  "key": "5A560F8949BD1626DA0E878765D2BE9F",
+  "mask": "0x6",
+  "files": 699,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   393735236,
+   53232
+  ]
+ },
+ "pak-0-1-pakchunk74uhd-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk74uhd-WindowsClient.pak",
+  "size": 26876594,
+  "key": "5A560F8949BD1626DA0E878765D2BE9F",
+  "mask": "0x6",
+  "files": 3,
+  "mount": "../../../DeltaForce/Content/Environment/",
+  "fdi": [
+   26875973,
+   400
+  ]
+ },
+ "pak-0-1-pakchunk78-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk78-WindowsClient.pak",
+  "size": 216045577,
+  "key": "E23A84DA4D82C79AA6AF268516490C10",
+  "mask": "0xb3",
+  "files": 3977,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   215839292,
+   206064
+  ]
+ },
+ "pak-0-1-pakchunk78optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk78optional-WindowsClient.pak",
+  "size": 232139648,
+  "key": "E23A84DA4D82C79AA6AF268516490C10",
+  "mask": "0xb3",
+  "files": 417,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   232113059,
+   26368
+  ]
+ },
+ "pak-0-1-pakchunk80-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk80-WindowsClient.pak",
+  "size": 5649601622,
+  "key": "B2E9E6CE4449CCD450451B8414E355C2",
+  "mask": "0x79",
+  "files": 117422,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5643697177,
+   5904224
+  ]
+ },
+ "pak-0-1-pakchunk80optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk80optional-WindowsClient.pak",
+  "size": 6626310053,
+  "key": "B2E9E6CE4449CCD450451B8414E355C2",
+  "mask": "0x79",
+  "files": 10970,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   6625634616,
+   675216
+  ]
+ },
+ "pak-0-1-pakchunk81-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk81-WindowsClient.pak",
+  "size": 16972,
+  "key": "C27A8150482107F415412E9254C5AFDE",
+  "mask": "0x7f",
+  "files": 4,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   16303,
+   448
+  ]
+ },
+ "pak-0-1-pakchunk82-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk82-WindowsClient.pak",
+  "size": 713922788,
+  "key": "D370F50D48C1645093D35197031E74BE",
+  "mask": "0xd5",
+  "files": 16423,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   713151783,
+   770784
+  ]
+ },
+ "pak-0-1-pakchunk82optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk82optional-WindowsClient.pak",
+  "size": 161589296,
+  "key": "D370F50D48C1645093D35197031E74BE",
+  "mask": "0xd5",
+  "files": 255,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   161572995,
+   16080
+  ]
+ },
+ "pak-0-1-pakchunk84-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk84-WindowsClient.pak",
+  "size": 187390922,
+  "key": "6FC1DA9540D89AC4328BC783B3D34D5B",
+  "mask": "0x27",
+  "files": 3071,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   187211053,
+   179648
+  ]
+ },
+ "pak-0-1-pakchunk84optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk84optional-WindowsClient.pak",
+  "size": 115610295,
+  "key": "6FC1DA9540D89AC4328BC783B3D34D5B",
+  "mask": "0x27",
+  "files": 52,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   115604554,
+   5520
+  ]
+ },
+ "pak-0-1-pakchunk95-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk95-WindowsClient.pak",
+  "size": 8962430,
+  "key": "2CF1E26244A5FF203C6D47B007246038",
+  "mask": "0xbe",
+  "files": 187,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   8946481,
+   15728
+  ]
+ },
+ "pak-0-1-pakchunk95optional-WindowsClient.pak": {
+  "pak": "pak-0-1-pakchunk95optional-WindowsClient.pak",
+  "size": 16947469,
+  "key": "2CF1E26244A5FF203C6D47B007246038",
+  "mask": "0xbe",
+  "files": 42,
+  "mount": "../../../DeltaForce/Content/GenTexDirHD/Game/",
+  "fdi": [
+   16942448,
+   4800
+  ]
+ },
+ "pak-0-2-pakchunk100-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk100-WindowsClient.pak",
+  "size": 1728940522,
+  "key": "833F02F5C79F449DBB288D873F6803B9",
+  "mask": "0x66",
+  "files": 28378,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1727513021,
+   1427280
+  ]
+ },
+ "pak-0-2-pakchunk100optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk100optional-WindowsClient.pak",
+  "size": 379689464,
+  "key": "833F02F5C79F449DBB288D873F6803B9",
+  "mask": "0x66",
+  "files": 595,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   379651979,
+   37264
+  ]
+ },
+ "pak-0-2-pakchunk104-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk104-WindowsClient.pak",
+  "size": 113856179,
+  "key": "7899A1939F1D419AB683557351F94C14",
+  "mask": "0x71",
+  "files": 2127,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   113731494,
+   124464
+  ]
+ },
+ "pak-0-2-pakchunk104optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk104optional-WindowsClient.pak",
+  "size": 32120182,
+  "key": "7899A1939F1D419AB683557351F94C14",
+  "mask": "0x71",
+  "files": 77,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   32109897,
+   10064
+  ]
+ },
+ "pak-0-2-pakchunk112-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk112-WindowsClient.pak",
+  "size": 108511585,
+  "key": "2B7A5EED06AA43308C186807531AAB4F",
+  "mask": "0xce",
+  "files": 877,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   108457812,
+   53552
+  ]
+ },
+ "pak-0-2-pakchunk112optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk112optional-WindowsClient.pak",
+  "size": 66883280,
+  "key": "2B7A5EED06AA43308C186807531AAB4F",
+  "mask": "0xce",
+  "files": 106,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   66874003,
+   9056
+  ]
+ },
+ "pak-0-2-pakchunk117-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk117-WindowsClient.pak",
+  "size": 199273128,
+  "key": "6F2A9A76090947F0B0382DBE0E6C7D35",
+  "mask": "0xa",
+  "files": 1112,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   199208907,
+   64000
+  ]
+ },
+ "pak-0-2-pakchunk117optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk117optional-WindowsClient.pak",
+  "size": 23941980,
+  "key": "6F2A9A76090947F0B0382DBE0E6C7D35",
+  "mask": "0xa",
+  "files": 45,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   23936543,
+   5216
+  ]
+ },
+ "pak-0-2-pakchunk119-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk119-WindowsClient.pak",
+  "size": 629110360,
+  "key": "1737311816B747D09E1D1A62EAE08849",
+  "mask": "0x9",
+  "files": 3159,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   628948059,
+   162080
+  ]
+ },
+ "pak-0-2-pakchunk119optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk119optional-WindowsClient.pak",
+  "size": 124315679,
+  "key": "1737311816B747D09E1D1A62EAE08849",
+  "mask": "0x9",
+  "files": 163,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   124299810,
+   15648
+  ]
+ },
+ "pak-0-2-pakchunk120-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk120-WindowsClient.pak",
+  "size": 95323784,
+  "key": "172882B218D049EFB7BC9831BD29D3D6",
+  "mask": "0x19",
+  "files": 1558,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   95208331,
+   115232
+  ]
+ },
+ "pak-0-2-pakchunk120optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk120optional-WindowsClient.pak",
+  "size": 81309157,
+  "key": "172882B218D049EFB7BC9831BD29D3D6",
+  "mask": "0x19",
+  "files": 193,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   81285864,
+   23072
+  ]
+ },
+ "pak-0-2-pakchunk135-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk135-WindowsClient.pak",
+  "size": 82596674,
+  "key": "126D1C6D42AD46CFAF51C0CD8DBE336D",
+  "mask": "0x53",
+  "files": 440,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   82571141,
+   25312
+  ]
+ },
+ "pak-0-2-pakchunk135optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk135optional-WindowsClient.pak",
+  "size": 12115134,
+  "key": "126D1C6D42AD46CFAF51C0CD8DBE336D",
+  "mask": "0x53",
+  "files": 9,
+  "mount": "../../../DeltaForce/Content/GenTexDirHD/Game/",
+  "fdi": [
+   12113841,
+   1072
+  ]
+ },
+ "pak-0-2-pakchunk137-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk137-WindowsClient.pak",
+  "size": 199306048,
+  "key": "1B51926CE7CA4DB2BCC22903B2EE04DF",
+  "mask": "0xe8",
+  "files": 2268,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   199195635,
+   110192
+  ]
+ },
+ "pak-0-2-pakchunk137optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk137optional-WindowsClient.pak",
+  "size": 211757175,
+  "key": "1B51926CE7CA4DB2BCC22903B2EE04DF",
+  "mask": "0xe8",
+  "files": 257,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   211742458,
+   14496
+  ]
+ },
+ "pak-0-2-pakchunk160-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk160-WindowsClient.pak",
+  "size": 227791500,
+  "key": "DD36578C3E5545BCB30370853678AD76",
+  "mask": "0x44",
+  "files": 2276,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   227666431,
+   124848
+  ]
+ },
+ "pak-0-2-pakchunk160optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk160optional-WindowsClient.pak",
+  "size": 58377062,
+  "key": "DD36578C3E5545BCB30370853678AD76",
+  "mask": "0x44",
+  "files": 137,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   58366457,
+   10384
+  ]
+ },
+ "pak-0-2-pakchunk167-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk167-WindowsClient.pak",
+  "size": 217963,
+  "key": "075E6F5E2A9E4FD3B0CD18D704CC14C0",
+  "mask": "0x88",
+  "files": 210,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   205054,
+   12688
+  ]
+ },
+ "pak-0-2-pakchunk167optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk167optional-WindowsClient.pak",
+  "size": 97645641,
+  "key": "075E6F5E2A9E4FD3B0CD18D704CC14C0",
+  "mask": "0x88",
+  "files": 34,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/Media/",
+  "fdi": [
+   97643164,
+   2256
+  ]
+ },
+ "pak-0-2-pakchunk18-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk18-WindowsClient.pak",
+  "size": 13946772,
+  "key": "25F8559C4FE6703CA22499BD96036E2E",
+  "mask": "0x6",
+  "files": 13134,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   13317271,
+   629280
+  ]
+ },
+ "pak-0-2-pakchunk18optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk18optional-WindowsClient.pak",
+  "size": 82829666,
+  "key": "25F8559C4FE6703CA22499BD96036E2E",
+  "mask": "0x6",
+  "files": 689,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/Media/",
+  "fdi": [
+   82809029,
+   20416
+  ]
+ },
+ "pak-0-2-pakchunk21-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk21-WindowsClient.pak",
+  "size": 64998489,
+  "key": "DAE6683E44CD62B8C9BAE993ACC7AC4C",
+  "mask": "0x72",
+  "files": 2170,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   64917596,
+   80672
+  ]
+ },
+ "pak-0-2-pakchunk219uhd-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk219uhd-WindowsClient.pak",
+  "size": 53179,
+  "key": "EA6614BE4D7559D4873ED48E62390985",
+  "mask": "0x7b",
+  "files": 2,
+  "mount": "../../../DeltaForce/Content/Environment/Props/",
+  "fdi": [
+   52734,
+   224
+  ]
+ },
+ "pak-0-2-pakchunk223-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk223-WindowsClient.pak",
+  "size": 999268,
+  "key": "0C25E89841F5F1236B3A01AD821E9F8D",
+  "mask": "0xdd",
+  "files": 970,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   945879,
+   53168
+  ]
+ },
+ "pak-0-2-pakchunk226-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk226-WindowsClient.pak",
+  "size": 11808652,
+  "key": "E47C915C4EE6D8081B4DDBA8DA219014",
+  "mask": "0x84",
+  "files": 482,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   11788975,
+   19456
+  ]
+ },
+ "pak-0-2-pakchunk227-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk227-WindowsClient.pak",
+  "size": 3724109074,
+  "key": "84FB03D44DEEBFF0710C6A89227C7AB1",
+  "mask": "0xd",
+  "files": 58242,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   3721339237,
+   2769616
+  ]
+ },
+ "pak-0-2-pakchunk227optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk227optional-WindowsClient.pak",
+  "size": 1611069883,
+  "key": "84FB03D44DEEBFF0710C6A89227C7AB1",
+  "mask": "0xd",
+  "files": 1966,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1610957454,
+   112208
+  ]
+ },
+ "pak-0-2-pakchunk243-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk243-WindowsClient.pak",
+  "size": 784285595,
+  "key": "CE1F1D544523FAD6F830D58929DEB67A",
+  "mask": "0x73",
+  "files": 2041,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   784168734,
+   116640
+  ]
+ },
+ "pak-0-2-pakchunk26-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk26-WindowsClient.pak",
+  "size": 1227803,
+  "key": "E47C915C4EE6D8081B4DDBA8DA219014",
+  "mask": "0x84",
+  "files": 6,
+  "mount": "../../../DeltaForce/Content/UI/UIAtlas/",
+  "fdi": [
+   1227150,
+   432
+  ]
+ },
+ "pak-0-2-pakchunk27-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk27-WindowsClient.pak",
+  "size": 295955772,
+  "key": "84FB03D44DEEBFF0710C6A89227C7AB1",
+  "mask": "0xd",
+  "files": 3644,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   295826991,
+   128560
+  ]
+ },
+ "pak-0-2-pakchunk289-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk289-WindowsClient.pak",
+  "size": 471293279,
+  "key": "D22F3D144AB9709EAFA5FF80B245691A",
+  "mask": "0x6a",
+  "files": 7599,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   470920034,
+   373024
+  ]
+ },
+ "pak-0-2-pakchunk289optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk289optional-WindowsClient.pak",
+  "size": 737445376,
+  "key": "D22F3D144AB9709EAFA5FF80B245691A",
+  "mask": "0x6a",
+  "files": 932,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   737394051,
+   51104
+  ]
+ },
+ "pak-0-2-pakchunk290-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk290-WindowsClient.pak",
+  "size": 449781548,
+  "key": "B719AE48441D54024B4373B40F240450",
+  "mask": "0xe",
+  "files": 7778,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   449409007,
+   372320
+  ]
+ },
+ "pak-0-2-pakchunk290optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk290optional-WindowsClient.pak",
+  "size": 508911933,
+  "key": "B719AE48441D54024B4373B40F240450",
+  "mask": "0xe",
+  "files": 940,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   508863456,
+   48256
+  ]
+ },
+ "pak-0-2-pakchunk291-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk291-WindowsClient.pak",
+  "size": 474943865,
+  "key": "6C5B4DB2498D6E3A01337590FE79D93E",
+  "mask": "0x1a",
+  "files": 7430,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   474563516,
+   380128
+  ]
+ },
+ "pak-0-2-pakchunk291optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk291optional-WindowsClient.pak",
+  "size": 645952260,
+  "key": "6C5B4DB2498D6E3A01337590FE79D93E",
+  "mask": "0x1a",
+  "files": 639,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   645911287,
+   40752
+  ]
+ },
+ "pak-0-2-pakchunk293-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk293-WindowsClient.pak",
+  "size": 4983406,
+  "key": "4A8A123348A11E148A26AFA577C16198",
+  "mask": "0x3b",
+  "files": 359,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   4958337,
+   24848
+  ]
+ },
+ "pak-0-2-pakchunk303-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk303-WindowsClient.pak",
+  "size": 57147289,
+  "key": "833F77D28CB7449E86AD781E659493C1",
+  "mask": "0xc5",
+  "files": 1328,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   57090636,
+   56432
+  ]
+ },
+ "pak-0-2-pakchunk304-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk304-WindowsClient.pak",
+  "size": 8036966,
+  "key": "7899A1939F1D419AB683557351F94C14",
+  "mask": "0x71",
+  "files": 816,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   7993113,
+   43632
+  ]
+ },
+ "pak-0-2-pakchunk305-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk305-WindowsClient.pak",
+  "size": 1210207,
+  "key": "BCB6D97B8A76401D957182A6BE61C52C",
+  "mask": "0x74",
+  "files": 1346,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   1150354,
+   59632
+  ]
+ },
+ "pak-0-2-pakchunk308-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk308-WindowsClient.pak",
+  "size": 931207,
+  "key": "916EE48B4C654302B943E2FCB0C3FF9B",
+  "mask": "0x88",
+  "files": 6,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   930586,
+   400
+  ]
+ },
+ "pak-0-2-pakchunk309-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk309-WindowsClient.pak",
+  "size": 11783,
+  "key": "D76BE544176D4B62A14267EF7914172F",
+  "mask": "0x21",
+  "files": 6,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   11082,
+   480
+  ]
+ },
+ "pak-0-2-pakchunk310-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk310-WindowsClient.pak",
+  "size": 16033447,
+  "key": "56CA64ADEF14459BAA012DC8981CEC34",
+  "mask": "0xf7",
+  "files": 410,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   16010394,
+   22832
+  ]
+ },
+ "pak-0-2-pakchunk310optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk310optional-WindowsClient.pak",
+  "size": 34612167,
+  "key": "56CA64ADEF14459BAA012DC8981CEC34",
+  "mask": "0xf7",
+  "files": 70,
+  "mount": "../../../DeltaForce/Content/Environment/",
+  "fdi": [
+   34607546,
+   4400
+  ]
+ },
+ "pak-0-2-pakchunk312-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk312-WindowsClient.pak",
+  "size": 78053142,
+  "key": "2B7A5EED06AA43308C186807531AAB4F",
+  "mask": "0xce",
+  "files": 2735,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   77925817,
+   127104
+  ]
+ },
+ "pak-0-2-pakchunk312optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk312optional-WindowsClient.pak",
+  "size": 4173758,
+  "key": "2B7A5EED06AA43308C186807531AAB4F",
+  "mask": "0xce",
+  "files": 16,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   4170817,
+   2720
+  ]
+ },
+ "pak-0-2-pakchunk317-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk317-WindowsClient.pak",
+  "size": 5700898,
+  "key": "6F2A9A76090947F0B0382DBE0E6C7D35",
+  "mask": "0xa",
+  "files": 196,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5689877,
+   10800
+  ]
+ },
+ "pak-0-2-pakchunk317optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk317optional-WindowsClient.pak",
+  "size": 10970080,
+  "key": "6F2A9A76090947F0B0382DBE0E6C7D35",
+  "mask": "0xa",
+  "files": 29,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   10967939,
+   1920
+  ]
+ },
+ "pak-0-2-pakchunk330-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk330-WindowsClient.pak",
+  "size": 4634029,
+  "key": "3907A63A1EF94018ABA8FD54D0D96ED9",
+  "mask": "0xfa",
+  "files": 226,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   4622288,
+   11520
+  ]
+ },
+ "pak-0-2-pakchunk331-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk331-WindowsClient.pak",
+  "size": 12884883,
+  "key": "83F9F4A110DA40FA9E1B9D9CBFE1921B",
+  "mask": "0x50",
+  "files": 81,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   12879462,
+   5200
+  ]
+ },
+ "pak-0-2-pakchunk333-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk333-WindowsClient.pak",
+  "size": 230514,
+  "key": "4B5C86962CB84C41A51FF855C2C2F141",
+  "mask": "0x83",
+  "files": 250,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   219925,
+   10368
+  ]
+ },
+ "pak-0-2-pakchunk356-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk356-WindowsClient.pak",
+  "size": 215738635,
+  "key": "B846EA9F507D49D0B7BC2387D02606E6",
+  "mask": "0x57",
+  "files": 1810,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   215641566,
+   96848
+  ]
+ },
+ "pak-0-2-pakchunk383-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk383-WindowsClient.pak",
+  "size": 134013447,
+  "key": "9B231D4D327D41539F6B533A1C6DF75E",
+  "mask": "0x8f",
+  "files": 948,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   133959946,
+   53280
+  ]
+ },
+ "pak-0-2-pakchunk383optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk383optional-WindowsClient.pak",
+  "size": 8555767,
+  "key": "9B231D4D327D41539F6B533A1C6DF75E",
+  "mask": "0x8f",
+  "files": 15,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   8553130,
+   2416
+  ]
+ },
+ "pak-0-2-pakchunk386-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk386-WindowsClient.pak",
+  "size": 507477,
+  "key": "77F2A9A855664FEDA0337FBA350D781D",
+  "mask": "0x8c",
+  "files": 15,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   505864,
+   1392
+  ]
+ },
+ "pak-0-2-pakchunk387-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk387-WindowsClient.pak",
+  "size": 128683,
+  "key": "1C36C9E5949E4E678976C4234D5C9946",
+  "mask": "0xe2",
+  "files": 80,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   122942,
+   5520
+  ]
+ },
+ "pak-0-2-pakchunk388-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk388-WindowsClient.pak",
+  "size": 46763699,
+  "key": "C0EC62AE422C4816BBCA864748B65867",
+  "mask": "0x6f",
+  "files": 179,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   46754630,
+   8848
+  ]
+ },
+ "pak-0-2-pakchunk393-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk393-WindowsClient.pak",
+  "size": 330364,
+  "key": "C4B59ADF68DC4DAE8EB1792201B3AD15",
+  "mask": "0xbc",
+  "files": 294,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   312079,
+   18064
+  ]
+ },
+ "pak-0-2-pakchunk396-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk396-WindowsClient.pak",
+  "size": 63753542,
+  "key": "6867624C10294E4284B741EF8E54DD4C",
+  "mask": "0x72",
+  "files": 1535,
+  "mount": "../../../DeltaForce/Content/Models/Characters/",
+  "fdi": [
+   63677657,
+   75664
+  ]
+ },
+ "pak-0-2-pakchunk400-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk400-WindowsClient.pak",
+  "size": 67399379,
+  "key": "DDAA881C4CEDE084EFB15FB275271085",
+  "mask": "0xe7",
+  "files": 1054,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   67349350,
+   49808
+  ]
+ },
+ "pak-0-2-pakchunk400optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk400optional-WindowsClient.pak",
+  "size": 10019313,
+  "key": "DDAA881C4CEDE084EFB15FB275271085",
+  "mask": "0xe7",
+  "files": 5,
+  "mount": "../../../DeltaForce/Content/Maps/Tide/Cutscene/",
+  "fdi": [
+   10018836,
+   256
+  ]
+ },
+ "pak-0-2-pakchunk58-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk58-WindowsClient.pak",
+  "size": 110692315,
+  "key": "8A76CE6C454BC6B2416B2DB7B89E0CC6",
+  "mask": "0x9e",
+  "files": 5033,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   110336878,
+   355216
+  ]
+ },
+ "pak-0-2-pakchunk58optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk58optional-WindowsClient.pak",
+  "size": 126906038,
+  "key": "8A76CE6C454BC6B2416B2DB7B89E0CC6",
+  "mask": "0x9e",
+  "files": 670,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   126816601,
+   89216
+  ]
+ },
+ "pak-0-2-pakchunk61-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk61-WindowsClient.pak",
+  "size": 796049455,
+  "key": "2AA17D0D4FCFBED7DC7D61BA70304268",
+  "mask": "0x4c",
+  "files": 15541,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   795149410,
+   899824
+  ]
+ },
+ "pak-0-2-pakchunk61optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk61optional-WindowsClient.pak",
+  "size": 78129950,
+  "key": "2AA17D0D4FCFBED7DC7D61BA70304268",
+  "mask": "0x4c",
+  "files": 81,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   78121761,
+   7968
+  ]
+ },
+ "pak-0-2-pakchunk63-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk63-WindowsClient.pak",
+  "size": 475071143,
+  "key": "DE55ACBF4A89D5DFED4927BA57F02ABA",
+  "mask": "0x9c",
+  "files": 1234,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   475011418,
+   59504
+  ]
+ },
+ "pak-0-2-pakchunk63optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk63optional-WindowsClient.pak",
+  "size": 32716407,
+  "key": "DE55ACBF4A89D5DFED4927BA57F02ABA",
+  "mask": "0x9c",
+  "files": 20,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   32714314,
+   1872
+  ]
+ },
+ "pak-0-2-pakchunk64-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk64-WindowsClient.pak",
+  "size": 99671493,
+  "key": "F21AE2864B7FE90638610AA842B566F1",
+  "mask": "0xad",
+  "files": 2837,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   99509672,
+   161600
+  ]
+ },
+ "pak-0-2-pakchunk64optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk64optional-WindowsClient.pak",
+  "size": 90757918,
+  "key": "F21AE2864B7FE90638610AA842B566F1",
+  "mask": "0xad",
+  "files": 119,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   90746721,
+   10976
+  ]
+ },
+ "pak-0-2-pakchunk68-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk68-WindowsClient.pak",
+  "size": 135418282,
+  "key": "70D549174A6750DE1FFB66A5E8A0CB08",
+  "mask": "0x61",
+  "files": 3302,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   135232957,
+   185104
+  ]
+ },
+ "pak-0-2-pakchunk68optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk68optional-WindowsClient.pak",
+  "size": 146365460,
+  "key": "70D549174A6750DE1FFB66A5E8A0CB08",
+  "mask": "0x61",
+  "files": 225,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   146345175,
+   20064
+  ]
+ },
+ "pak-0-2-pakchunk75-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk75-WindowsClient.pak",
+  "size": 2206576,
+  "key": "54B25AC84EB10B9002B909BBEE5A8ECC",
+  "mask": "0x73",
+  "files": 113,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   2199859,
+   6496
+  ]
+ },
+ "pak-0-2-pakchunk75optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk75optional-WindowsClient.pak",
+  "size": 1461992,
+  "key": "54B25AC84EB10B9002B909BBEE5A8ECC",
+  "mask": "0x73",
+  "files": 3,
+  "mount": "../../../DeltaForce/Content/GenTexDirHD/Game/",
+  "fdi": [
+   1461403,
+   368
+  ]
+ },
+ "pak-0-2-pakchunk76-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk76-WindowsClient.pak",
+  "size": 320078,
+  "key": "F5148A234AAB16C9247BB89C702AEEA8",
+  "mask": "0x68",
+  "files": 66,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   316401,
+   3456
+  ]
+ },
+ "pak-0-2-pakchunk87-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk87-WindowsClient.pak",
+  "size": 611916,
+  "key": "517872254C060941C5916E9B6430E4BE",
+  "mask": "0xb5",
+  "files": 43,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   608959,
+   2736
+  ]
+ },
+ "pak-0-2-pakchunk89-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk89-WindowsClient.pak",
+  "size": 485724824,
+  "key": "D22F3D144AB9709EAFA5FF80B245691A",
+  "mask": "0x6a",
+  "files": 6345,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   485354763,
+   369840
+  ]
+ },
+ "pak-0-2-pakchunk89optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk89optional-WindowsClient.pak",
+  "size": 568140759,
+  "key": "D22F3D144AB9709EAFA5FF80B245691A",
+  "mask": "0x6a",
+  "files": 885,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   568072650,
+   67888
+  ]
+ },
+ "pak-0-2-pakchunk91-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk91-WindowsClient.pak",
+  "size": 5102961447,
+  "key": "6C5B4DB2498D6E3A01337590FE79D93E",
+  "mask": "0x1a",
+  "files": 40076,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   5101132922,
+   1828304
+  ]
+ },
+ "pak-0-2-pakchunk91optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk91optional-WindowsClient.pak",
+  "size": 1103427249,
+  "key": "6C5B4DB2498D6E3A01337590FE79D93E",
+  "mask": "0x1a",
+  "files": 959,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   1103362708,
+   64320
+  ]
+ },
+ "pak-0-2-pakchunk93-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk93-WindowsClient.pak",
+  "size": 30246235,
+  "key": "4A8A123348A11E148A26AFA577C16198",
+  "mask": "0x3b",
+  "files": 601,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   30212222,
+   33792
+  ]
+ },
+ "pak-0-2-pakchunk93optional-WindowsClient.pak": {
+  "pak": "pak-0-2-pakchunk93optional-WindowsClient.pak",
+  "size": 36411512,
+  "key": "4A8A123348A11E148A26AFA577C16198",
+  "mask": "0x3b",
+  "files": 76,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   36405643,
+   5648
+  ]
+ },
+ "pak-0-3-pakchunk15-WindowsClient.pak": {
+  "pak": "pak-0-3-pakchunk15-WindowsClient.pak",
+  "size": 17778,
+  "key": "69A5757649325D08EF0148B3FBCA3140",
+  "mask": "0x90",
+  "files": 20,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   16469,
+   1088
+  ]
+ },
+ "pak-0-3-pakchunk16-WindowsClient.pak": {
+  "pak": "pak-0-3-pakchunk16-WindowsClient.pak",
+  "size": 493932,
+  "key": "4524D87943AD6852688E86B9F4D8663E",
+  "mask": "0x9f",
+  "files": 584,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   467567,
+   26144
+  ]
+ },
+ "sensicommon_1_103_37117_36_pak-0-1-pakchunk198-WindowsClient.pak": {
+  "pak": "sensicommon_1_103_37117_36_pak-0-1-pakchunk198-WindowsClient.pak",
+  "size": 14111,
+  "key": "D49706097267427D87E150D11E5BB439",
+  "mask": "0xc",
+  "files": 12,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   12818,
+   1072
+  ]
+ },
+ "sensicommon_1_103_37117_36_pak-0-1-pakchunk202-WindowsClient.pak": {
+  "pak": "sensicommon_1_103_37117_36_pak-0-1-pakchunk202-WindowsClient.pak",
+  "size": 250578,
+  "key": "2834076B4222E70CC23D82A798AFF9A1",
+  "mask": "0xaf",
+  "files": 228,
+  "mount": "../../../DeltaForce/Content/WwiseAudio/",
+  "fdi": [
+   239829,
+   10528
+  ]
+ },
+ "sensicommon_1_103_37117_36_pak-0-1-pakchunk203-WindowsClient.pak": {
+  "pak": "sensicommon_1_103_37117_36_pak-0-1-pakchunk203-WindowsClient.pak",
+  "size": 8906969,
+  "key": "BDF41EF84E9384DF2EC7F298E1FA667E",
+  "mask": "0x9",
+  "files": 565,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   8885036,
+   21712
+  ]
+ },
+ "sensicommon_1_103_37117_36_pak-0-1-pakchunk203optional-WindowsClient.pak": {
+  "pak": "sensicommon_1_103_37117_36_pak-0-1-pakchunk203optional-WindowsClient.pak",
+  "size": 22122949,
+  "key": "BDF41EF84E9384DF2EC7F298E1FA667E",
+  "mask": "0x9",
+  "files": 60,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   22120904,
+   1824
+  ]
+ },
+ "sensicommon_1_103_37117_36_pak-0-1-pakchunk204-WindowsClient.pak": {
+  "pak": "sensicommon_1_103_37117_36_pak-0-1-pakchunk204-WindowsClient.pak",
+  "size": 6833129,
+  "key": "30D4B60741CEBD3DE8A397AB580D17AC",
+  "mask": "0x51",
+  "files": 565,
+  "mount": "../../../DeltaForce/Content/",
+  "fdi": [
+   6801772,
+   31136
+  ]
+ }
+}

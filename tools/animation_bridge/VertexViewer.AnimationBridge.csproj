@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>VertexViewer.AnimationBridge</AssemblyName>
+    <SdkDirectory Condition="'$(SdkDirectory)' == ''">$(MSBuildThisFileDirectory)..\..\work\animation-sdk</SdkDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(SdkDirectory)\*.dll" />
+  </ItemGroup>
+</Project>

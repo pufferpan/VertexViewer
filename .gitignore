@@ -1,0 +1,25 @@
+# 构建产物
+build/
+dist/
+*.spec.bak
+*.pkg
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 运行时数据（不进版本库的部分）
+exports/
+*.log
+*.tmp
+
+# 本机自备的游戏解包密钥（README-source.md 约定不随源码分发）
+work/AESKey1.json
+work/*.local.json
+
+# 调试截图 / 分析输出
+gs-shots/
+docs/_*.png

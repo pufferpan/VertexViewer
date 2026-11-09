@@ -1,0 +1,8 @@
+{
+  "target": "net10.0 / win-x64",
+  "source": {
+    "dfmap.dll": "f5a909824c021b27ff5a76d94e1b5a3f01db85b09d84568e9b990d327cbc6ac7",
+    "CUE4Parse.dll": "97068796f3b4c592bd3e964500753b0db7fc1df223dc4fb8bddcd6570b39cee6",
+    "CUE4Parse-Conversion.dll": "cb1d2d332dcb8ab7a8ebd028cfcf0ddd11f5568a139fea19d1bd50051e08d4a1"
+  }
+}
