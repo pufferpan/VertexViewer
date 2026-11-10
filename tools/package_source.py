@@ -15,7 +15,7 @@ sys.path.insert(0, str(BASE))
 from core.version import VERSION, BUILD
 
 SKIP = {'__pycache__', 'bin', 'obj', '.git', '.venv', '.pytest_cache', 'node_modules', '.cache'}
-PRIVATE_NAMES = {'license.json', 'activation.json', 'settings.json', 'owner-signing-key.pem'}
+PRIVATE_NAMES = {'license.json', 'activation.json', 'settings.json'}
 
 
 def allowed(path: Path, relative: Path) -> bool:
