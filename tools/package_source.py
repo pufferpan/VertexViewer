@@ -90,7 +90,7 @@ def main():
     tree(native, 'third_party/CUE4Parse-native')
     tree(fluent, 'third_party/fluentpy-qt')
     required = ('app/wizard.py', 'core/inspection.py', 'core/inspection_scene.py',
-                'core/gunsmith_animation.py', 'core/activation.py', 'core/part_offsets.json',
+                'core/gunsmith_animation.py', 'core/part_offsets.json',
                 'exporters/animation_glb.py', 'render/shaders/scene.frag',
                 'assets/animation/VertexViewer.AnimationBridge.exe', 'assets/animation/CUE4Parse-Natives.dll',
                 'assets/audio/OPEN_0.wav', 'assets/credits.json', 'assets/wizard_row3.png',

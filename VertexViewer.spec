@@ -90,7 +90,7 @@ for _logo_name in ("logo_wordmark.png", "logo_wordmark_light.png"):
 # 首次启动向导的整屏背景（右半边 45° 三行截图，tools/make_wizard_bg.py 生成）
 # wizard_bg.png 是合成好的整图（兜底/预览）；wizard_base.png + wizard_row*.png +
 # wizard_rows.json 是分层素材，进场动画要靠它们让三行各自从屏幕外飞进来。
-WIZARD_ASSETS = ["activation-public.json", "wizard_bg.png", "wizard_base.png", "wizard_row1.png",
+WIZARD_ASSETS = ["wizard_bg.png", "wizard_base.png", "wizard_row1.png",
                  "wizard_row2.png", "wizard_row3.png", "wizard_rows.json", "credits.json"]
 for _wiz in WIZARD_ASSETS:
     _wiz_path = os.path.join(ROOT, "assets", _wiz)
@@ -240,7 +240,6 @@ if os.path.isdir(DIST):
     manual = os.path.join(ROOT, "docs", "使用说明.txt")
     if os.path.exists(manual):
         shutil.copy2(manual, os.path.join(DATA, "使用说明.txt"))
-    shutil.copy2(os.path.join(ROOT,"docs","机器码激活.md"),os.path.join(DATA,"机器码激活.md"))
     # 顺手把旧版本残留的索引文件清掉：以前 data/ 里放过 index.tsv.gz /
     # fileindex.json.gz，覆盖安装时会留下来，害得 WORK 指到奇怪的地方。
     for stale in ("index.tsv.gz", "fileindex.json.gz", "fileindex.json",
@@ -256,7 +255,7 @@ if os.path.isdir(DIST):
     info = [
         "VertexViewer · 模型浏览器",
         "构建时间：" + _time.strftime("%Y-%m-%d %H:%M"),
-        "版本：" + _stamp() + "（感谢名单 / OPEN_0 启动音乐 / 物品检视方向修复 / 第一人称与改枪检视 / GLB 动画导出 / 名称与限时激活）",
+        "版本：" + _stamp() + "（感谢名单 / OPEN_0 启动音乐 / 物品检视方向修复 / 第一人称与改枪检视 / GLB 动画导出）",
         "报问题时请把这一行版本号发过来，能立刻判断是不是新包。",
         "",
         "data/ 目录说明",

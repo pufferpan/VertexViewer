@@ -769,10 +769,6 @@ class SettingsPage(QWidget):
         root.addWidget(info_card)
         self._info_detail = detail          # 重建索引后要让这张卡片自己更新
 
-        from app.activation import authorization_widget
-        self.authorization=authorization_widget(body)
-        root.addWidget(self.authorization)
-
         # appearance
         theme_card = CardWidget(body)
         theme_layout = QVBoxLayout(theme_card)

@@ -112,15 +112,8 @@ def _run(argv, log=None) -> int:
             traceback.print_exc(file=log)
         print("[vertexviewer] theme failed", file=log or sys.stderr)
 
-    from app.activation import require_activation,LicenseGuard
-    if not require_activation():
-        return 1
-    app._license_guard=LicenseGuard(app)
     if len(argv)==3 and argv[1]=='--verify-release':
         from tools.verify_release import run
-        return run(argv[2])
-    if len(argv)==3 and argv[1]=='--verify-activation':
-        from tools.verify_activation import run
         return run(argv[2])
     if len(argv)==3 and argv[1]=='--verify-inspection-hands':
         from tools.verify_inspection_hands import run
