@@ -8,5 +8,7 @@ from typing import Dict, List, Optional, Sequence, Tuple
 import numpy as np
 
 from .obj import export_obj, export_obj_lods, export_mesh_lod
+from .static_glb import export_static_glb, skeleton_available
 
-__all__ = ["export_obj", "export_obj_lods", "export_mesh_lod"]
+__all__ = ["export_obj", "export_obj_lods", "export_mesh_lod",
+           "export_static_glb", "skeleton_available"]

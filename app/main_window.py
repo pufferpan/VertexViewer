@@ -18,7 +18,7 @@ from app.pages import (CAPTURE_DIR, ExportPage, LibraryPage, MaterialsPage,
                        SettingsPage, TexturesPage, human_bytes)
 from app.viewer import Viewport, create_viewport, describe_backend
 from cache import get_cache
-from exporters import export_obj, export_obj_lods
+from exporters import export_obj, export_obj_lods, export_static_glb, skeleton_available
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -789,6 +789,28 @@ class VertexViewerWindow(FluentWindow):
             result = export_obj(bundle, base, lod=lod, **kwargs)
         self.last_export = result
         return result
+
+    def export_glb(self, *, directory: Optional[str] = None):
+        """导出带骨骼的 GLB：几何、材质、蒙皮权重一起写进一个文件。"""
+        bundle = self.bundle
+        if bundle is None:
+            self.toast("没有可导出的模型", "先在模型库里选一个资产", ok=False)
+            return None
+        if not skeleton_available(bundle.mesh):
+            self.toast("这个模型没有骨骼", "纯静态网格请用「导出 OBJ」", ok=False)
+            return None
+        target_dir = directory or DEFAULT_EXPORT_DIR
+        os.makedirs(target_dir, exist_ok=True)
+        stem = _asset_stem(bundle, self.current_vpath)
+        try:
+            info = export_static_glb(bundle, os.path.join(target_dir, stem + ".glb"))
+        except Exception as exc:                            # noqa: BLE001
+            self.toast("导出失败", str(exc), ok=False)
+            self.status(f"导出失败：{exc}")
+            return None
+        self.last_export = info
+        self.toast(f"已导出 GLB（{info['bones']} 根骨骼）", os.path.dirname(info["path"]))
+        return info
 
     def export_current(self) -> None:
         if self.bundle is None:

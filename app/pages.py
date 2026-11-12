@@ -196,10 +196,12 @@ class LibraryPage(QWidget):
         self.open_button = PushButton(qicon("folder"), "打开游戏目录", toolbar)
         self.uef_open_button = PushButton(qicon("folder"), "打开 .uemodel", toolbar)
         self.export_button = PushButton(qicon("save"), "导出 OBJ", toolbar)
+        self.glb_button = PushButton(qicon("save"), "导出 GLB", toolbar)
+        self.glb_button.setToolTip("连同骨骼和蒙皮权重一起导出，Blender 里可以继续摆姿势")
         self.capture_button = PushButton(qicon("camera"), "抓图", toolbar)
         self.fullscreen_button = PushButton(qicon("fullscreen"), "全屏", toolbar)
         for button in (self.open_button, self.uef_open_button, self.export_button,
-                       self.capture_button, self.fullscreen_button):
+                       self.glb_button, self.capture_button, self.fullscreen_button):
             bar.addWidget(button)
         bar.addStretch(1)
         self.backend_label = CaptionLabel("渲染器：—")
@@ -226,6 +228,7 @@ class LibraryPage(QWidget):
         self.open_button.clicked.connect(window.open_game_dir)
         self.uef_open_button.clicked.connect(self._open_uemodel)
         self.export_button.clicked.connect(window.export_current)
+        self.glb_button.clicked.connect(lambda: window.export_glb())
         self.capture_button.clicked.connect(window.capture_view)
         self.fullscreen_button.clicked.connect(window.toggle_fullscreen)
         self.refresh_backend()
