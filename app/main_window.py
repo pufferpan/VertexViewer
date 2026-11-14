@@ -862,13 +862,17 @@ class VertexViewerWindow(FluentWindow):
             self.status(f"发送失败：{exc}")
             return
         try:
-            blender_bridge.launch(model_path)
+            proc = blender_bridge.launch(model_path)
         except Exception as exc:                            # noqa: BLE001
             self.toast("Blender 启动失败", str(exc), ok=False)
             self.status(f"Blender 启动失败：{exc}")
             return
-        self.toast("已发送到 Blender", os.path.basename(model_path))
-        self.status(f"已在 Blender 中打开：{os.path.basename(model_path)}")
+        if proc is None:
+            self.toast("已导入当前 Blender 场景", os.path.basename(model_path))
+            self.status(f"已导入正在运行的 Blender：{os.path.basename(model_path)}")
+        else:
+            self.toast("已在新开的 Blender 中导入", os.path.basename(model_path))
+            self.status(f"Blender 已启动：{os.path.basename(model_path)}")
 
     # -- drag & drop -------------------------------------------------------- #
     def dragEnterEvent(self, event) -> None:                 # noqa: N802

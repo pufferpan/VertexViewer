@@ -4,7 +4,9 @@
 
 1. 在模型库里选一个模型
 2. **按住 `Ctrl + Shift`，在视口里按住左键拖一段（≥36 像素），松手**
-3. 模型会先导出（有骨骼走 GLB、纯静态走 OBJ），然后 Blender 自动打开并导入
+3. 模型会先导出（有骨骼走 GLB、纯静态走 OBJ），然后：
+   - 已经有本工具开的 Blender 在跑 → **直接导入那个窗口的当前场景**（不新开、不清空）
+   - 没有 → 新开一个 Blender，导入它的场景里
 
 不想记快捷键：工具栏「发送到 Blender」按钮、或 `Ctrl+Shift+B` 菜单效果一样。
 
@@ -30,6 +32,15 @@
 3. 常见安装位置（Program Files\Blender Foundation、Steam 库里的 Blender）
 
 找不到时弹提示，不会静默失败。
+
+## 怎么做到「导入当前场景」
+
+第一次发送时，Blender 会带着一个常驻小脚本启动：它把 PID 写进
+`%TEMP%ertexviewer_bridgelender.pid`，然后每 0.4 秒看一眼
+`%TEMP%ertexviewer_bridge\*.json`。之后的每次拖动只往这个目录投一个请求文件，
+那个 Blender 自己读走并追加导入——所以是同一个窗口、同一个场景、不新开进程。
+
+把那个 Blender 关掉，PID 文件失效，下次发送会自动新开一个。
 
 ## 导入脚本做了什么
 
