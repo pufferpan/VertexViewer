@@ -18,6 +18,7 @@ from app.pages import (CAPTURE_DIR, ExportPage, LibraryPage, MaterialsPage,
                        SettingsPage, TexturesPage, human_bytes)
 from app.viewer import Viewport, create_viewport, describe_backend
 from cache import get_cache
+from core import blender_bridge
 from exporters import export_obj, export_obj_lods, export_static_glb, skeleton_available
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -180,6 +181,10 @@ class VertexViewerWindow(FluentWindow):
 
         self.browser = ModelBrowser(self, auto_build=auto_build)
         self.viewport: Viewport = create_viewport(self, force=viewer)
+        try:
+            self.viewport._send_gesture = self.send_to_blender
+        except Exception:                                   # noqa: BLE001
+            pass
 
         self.library_page = LibraryPage(self, self.viewport, self)
         self.library_page.status.set_cache(self._cache_size())
@@ -826,6 +831,44 @@ class VertexViewerWindow(FluentWindow):
         path = os.path.dirname(items[0].get("obj", ""))
         self.toast(f"已导出 {len(items)} 个 OBJ", path)
         self.status(f"导出完成 → {path}")
+
+    # -- 送进 Blender -------------------------------------------------------- #
+    def send_to_blender(self) -> None:
+        """当前模型导出后直接丢进 Blender（Ctrl+Shift 拖动 / 菜单 / 工具栏）。"""
+        bundle = self.bundle
+        if bundle is None:
+            self.toast("没有可发送的模型", "先在模型库里选一个资产", ok=False)
+            return
+        blender = blender_bridge.blender_exe()
+        if not blender:
+            self.toast("没找到 Blender", "装一个 Blender，或用环境变量 VERTEXVIEWER_BLENDER 指定路径", ok=False)
+            self.status("没找到 Blender 可执行文件")
+            return
+        target_dir = os.path.join(DEFAULT_EXPORT_DIR, "blender")
+        os.makedirs(target_dir, exist_ok=True)
+        stem = _asset_stem(bundle, self.current_vpath)
+        try:
+            if skeleton_available(bundle.mesh):
+                info = export_static_glb(bundle, os.path.join(target_dir, stem + ".glb"))
+                model_path = info["path"]
+            else:
+                result = export_obj_lods(bundle, os.path.join(target_dir, stem + ".obj"))
+                items = result if isinstance(result, list) else [result]
+                model_path = items[0].get("obj", "")
+            if not model_path or not os.path.isfile(model_path):
+                raise RuntimeError("导出文件没有写出来")
+        except Exception as exc:                            # noqa: BLE001
+            self.toast("发送失败", str(exc), ok=False)
+            self.status(f"发送失败：{exc}")
+            return
+        try:
+            blender_bridge.launch(model_path)
+        except Exception as exc:                            # noqa: BLE001
+            self.toast("Blender 启动失败", str(exc), ok=False)
+            self.status(f"Blender 启动失败：{exc}")
+            return
+        self.toast("已发送到 Blender", os.path.basename(model_path))
+        self.status(f"已在 Blender 中打开：{os.path.basename(model_path)}")
 
     # -- drag & drop -------------------------------------------------------- #
     def dragEnterEvent(self, event) -> None:                 # noqa: N802

@@ -40,6 +40,7 @@ Pillow>=10.0  pycryptodome>=3.20  texture2ddecoder>=1.0.6  PyOpenGL>=3.1.7
 | 9 | 先导出模型再上材质 | `exporters/uemodel.py` | 导出页「先导出 .uemodel（几何）」只写几何+材质引用；`python -m exporters.uemodel x.uemodel --materialize out/` 再把材质贴图补上导 OBJ |
 | 11 | 检视动画 | `core/inspection.py`、`core/inspection_catalog.py`、`core/inspection_scene.py`、`core/gunsmith_animation.py`、`app/inspection_page.py` | 默认跟随游戏 FPPCamera 挂点的第一人称视角；支持自由观察、角色手臂开关，以及改枪台当前完整装配的检视和 GLB 导出。配件保留原有位置，并绑定对应运动骨骼，导出包含模型、贴图、权重、动作和相机。 |
 | 12 | 自定义图标 + 可分享图标表 | `core/usertable.py` | 卡片右键换图标，表存 `work/icon_table.json`；底部「图标表」可导出分享包 |
+| 13 | 直接送进 Blender | `core/blender_bridge.py` | 视口按住 `Ctrl+Shift` 拖一段松手（或工具栏「发送到 Blender」）：有骨骼导 GLB、纯静态导 OBJ，自动启动 Blender 并框住模型。见 [docs/发送到Blender.md](docs/发送到Blender.md) |
 | 10 | 按游戏内名字搜模型 + 卡片式模型库 | `app/browser.py` | 左栏搜索框直接打中文名（「头盔」「阿萨拉突击背包」「M4A1」都行）；分类 chip 筛选；卡片视图带「合并变体」（1P/3P/UI/HD 只显示一张） |
 
 图标覆盖率实测：45280 个网格里 **490 个有官方图标**（UIIcon 只画了装备/道具/头盔这一批，武器零件本身没有对应图标），

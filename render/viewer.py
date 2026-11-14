@@ -1370,6 +1370,9 @@ class MeshViewer(QOpenGLWidget):
         self._gl_error: Optional[str] = None
         self._last_pos: Optional[QPointF] = None
         self._last_button = None
+        self._send_gesture = None        # 按住 Ctrl+Shift 拖动松手时回调（送进 Blender）
+        self._gesture_from: Optional[QPointF] = None
+        self._gesture_live = False
         self._frame_hook: Optional[Any] = None
         self._need_frame = False
 
@@ -1624,9 +1627,23 @@ class MeshViewer(QOpenGLWidget):
         return self._gl_error
 
     # ---- interaction -------------------------------------------------------
+    @staticmethod
+    def _send_modifier(event) -> bool:
+        mods = event.modifiers()
+        return bool(mods & Qt.KeyboardModifier.ControlModifier
+                    and mods & Qt.KeyboardModifier.ShiftModifier)
+
     def mousePressEvent(self, event) -> None:  # noqa: N802
         self._last_pos = event.position()
         self._last_button = event.button()
+        # 按住 Ctrl+Shift 左键拖动 = 把当前模型投进 Blender（松手才触发）
+        if (event.button() == Qt.MouseButton.LeftButton and self._send_modifier(event)
+                and self._send_gesture is not None):
+            self._gesture_from = event.position()
+            self._gesture_live = True
+            self.setCursor(Qt.CursorShape.DragCopyCursor)
+            event.accept()
+            return
         super().mousePressEvent(event)
 
     def mouseMoveEvent(self, event) -> None:  # noqa: N802
@@ -1635,6 +1652,9 @@ class MeshViewer(QOpenGLWidget):
         pos = event.position()
         dx = pos.x() - self._last_pos.x()
         dy = pos.y() - self._last_pos.y()
+        if self._gesture_live:
+            self._last_pos = pos          # 拖动时不转相机，留着给松手判定距离
+            return
         cam = self._state.camera
         if event.buttons() & Qt.MouseButton.LeftButton:
             cam.orbit(dx, dy)
@@ -1645,6 +1665,21 @@ class MeshViewer(QOpenGLWidget):
         self._last_pos = pos
 
     def mouseReleaseEvent(self, event) -> None:  # noqa: N802
+        if self._gesture_live:
+            start = self._gesture_from
+            self._gesture_live = False
+            self._gesture_from = None
+            self.unsetCursor()
+            if start is not None:
+                delta = event.position() - start
+                distance = math.hypot(delta.x(), delta.y())
+                callback = self._send_gesture
+                if callback is not None and distance >= 36:
+                    callback()
+                    self._last_pos = None
+                    self._last_button = None
+                    event.accept()
+                    return
         self._last_pos = None
         self._last_button = None
         super().mouseReleaseEvent(event)
