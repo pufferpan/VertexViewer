@@ -72,8 +72,12 @@ def blender_exe() -> str:
     return candidates[0] if candidates else ""
 
 
-def import_script(model_path: str, *, reset: bool = True) -> str:
-    """生成让 Blender 导入模型的脚本（路径用正斜杠，避免转义问题）。"""
+def import_script(model_path: str, *, reset: bool = False) -> str:
+    """生成让 Blender 导入模型的脚本。
+
+    默认不动当前场景：不删对象、不清集合，直接追加导入（reset=True 才清空）。
+    路径用正斜杠，避免转义问题。
+    """
     path = str(model_path).replace("\\", "/")
     lines = [
         "import bpy",
@@ -108,6 +112,7 @@ def import_script(model_path: str, *, reset: bool = True) -> str:
         "                        bpy.ops.view3d.view_selected()",
         "                    break",
         "    print('[vertexviewer] imported', len(imported), 'objects from', target)",
+        "    print('[vertexviewer] scene objects now:', len(bpy.context.scene.objects))",
         "else:",
         "    print('[vertexviewer] import produced no mesh:', target)",
         "",

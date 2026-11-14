@@ -33,8 +33,13 @@ class ScriptTest(unittest.TestCase):
         self.assertIn("wm.obj_import", script)
         self.assertIn("endswith('.obj')", script)
 
-    def test_reset_can_be_skipped(self):
-        self.assertNotIn("delete(use_global=False)", blender_bridge.import_script("a.glb", reset=False))
+    def test_import_does_not_touch_existing_scene(self):
+        script = blender_bridge.import_script("a.glb")
+        self.assertNotIn("object.delete", script)
+        self.assertNotIn("select_all(action='SELECT')", script)
+
+    def test_reset_is_opt_in(self):
+        self.assertIn("object.delete", blender_bridge.import_script("a.glb", reset=True))
 
 
 class LaunchTest(unittest.TestCase):

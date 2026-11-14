@@ -33,9 +33,11 @@
 
 ## 导入脚本做了什么
 
-写一份临时脚本再让 Blender 执行：清空默认场景 → 按扩展名选 `wm.obj_import` 或
-`import_scene.gltf` → 选中导入的网格 → `view3d.view_selected()` 把视角框上去 →
-打印 `[vertexviewer] imported N objects`。脚本路径
+写一份临时脚本再让 Blender 执行：按扩展名选 `wm.obj_import` 或
+`import_scene.gltf` → 选中刚导入的网格 → `view3d.view_selected()` 把视角框上去 →
+打印 `[vertexviewer] imported N objects`。
+
+**不动当前场景**：不删对象、不清集合，导入是追加；场景里原有的东西保持原样。脚本路径
 `%TEMP%\vertexviewer_blender_import.py`，可以直接打开看，没有隐藏动作。
 
 ## 实测
@@ -48,6 +50,5 @@
 ## 边界
 
 - 只支持本机已安装的 Blender（不自动下载）
-- 导入进的是**当前 Blender 窗口**；如果 Blender 已经开着别的工程，会先把它的对象全删掉——
-  脚本里的 `reset` 就是这个意思，别在重要工程里直接按
+- 导入是追加式的，不会清空当前场景；重复按会得到多份模型，自己删多余的就行
 - 贴图是外部文件，移动 `.glb/.obj` 时要连贴图一起带走
